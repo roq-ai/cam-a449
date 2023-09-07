@@ -1,0 +1,95 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model allegation {
+  id                                                           String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description                                                  String         @db.VarChar(255)
+  status                                                       String         @db.VarChar(255)
+  victim_id                                                    String         @db.Uuid
+  investigator_id                                              String         @db.Uuid
+  perpetrator_id                                               String         @db.Uuid
+  created_at                                                   DateTime       @default(now()) @db.Timestamp(6)
+  updated_at                                                   DateTime       @default(now()) @db.Timestamp(6)
+  investigator_allegation_investigator_idToinvestigator        investigator   @relation("allegation_investigator_idToinvestigator", fields: [investigator_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  perpetrator_allegation_perpetrator_idToperpetrator           perpetrator    @relation("allegation_perpetrator_idToperpetrator", fields: [perpetrator_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  victim_allegation_victim_idTovictim                          victim         @relation("allegation_victim_idTovictim", fields: [victim_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  investigator_investigator_assigned_allegation_idToallegation investigator[] @relation("investigator_assigned_allegation_idToallegation")
+  perpetrator_perpetrator_allegation_idToallegation            perpetrator[]  @relation("perpetrator_allegation_idToallegation")
+  victim_victim_allegation_idToallegation                      victim[]       @relation("victim_allegation_idToallegation")
+}
+
+model investigator {
+  id                                                         String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id                                                    String       @db.Uuid
+  assigned_allegation_id                                     String       @db.Uuid
+  investigation_status                                       String?      @db.VarChar(255)
+  investigation_result                                       String?      @db.VarChar(255)
+  investigation_date                                         DateTime?    @db.Date
+  created_at                                                 DateTime     @default(now()) @db.Timestamp(6)
+  updated_at                                                 DateTime     @default(now()) @db.Timestamp(6)
+  allegation_allegation_investigator_idToinvestigator        allegation[] @relation("allegation_investigator_idToinvestigator")
+  allegation_investigator_assigned_allegation_idToallegation allegation   @relation("investigator_assigned_allegation_idToallegation", fields: [assigned_allegation_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user                                                       user         @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model organization {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?  @db.VarChar(255)
+  name        String   @db.VarChar(255)
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  user_id     String   @db.Uuid
+  tenant_id   String   @db.VarChar(255)
+  user        user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model perpetrator {
+  id                                                String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id                                           String       @db.Uuid
+  allegation_id                                     String       @db.Uuid
+  incident_role                                     String?      @db.VarChar(255)
+  incident_consequence                              String?      @db.VarChar(255)
+  incident_remarks                                  String?      @db.VarChar(255)
+  created_at                                        DateTime     @default(now()) @db.Timestamp(6)
+  updated_at                                        DateTime     @default(now()) @db.Timestamp(6)
+  allegation_allegation_perpetrator_idToperpetrator allegation[] @relation("allegation_perpetrator_idToperpetrator")
+  allegation_perpetrator_allegation_idToallegation  allegation   @relation("perpetrator_allegation_idToallegation", fields: [allegation_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user                                              user         @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model user {
+  id           String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email        String         @unique @db.VarChar(255)
+  firstName    String?        @db.VarChar(255)
+  lastName     String?        @db.VarChar(255)
+  roq_user_id  String         @db.VarChar(255)
+  tenant_id    String         @db.VarChar(255)
+  created_at   DateTime       @default(now()) @db.Timestamp(6)
+  updated_at   DateTime       @default(now()) @db.Timestamp(6)
+  investigator investigator[]
+  organization organization[]
+  perpetrator  perpetrator[]
+  victim       victim[]
+}
+
+model victim {
+  id                                          String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id                                     String       @db.Uuid
+  allegation_id                               String       @db.Uuid
+  incident_date                               DateTime?    @db.Date
+  incident_description                        String?      @db.VarChar(255)
+  incident_location                           String?      @db.VarChar(255)
+  created_at                                  DateTime     @default(now()) @db.Timestamp(6)
+  updated_at                                  DateTime     @default(now()) @db.Timestamp(6)
+  allegation_allegation_victim_idTovictim     allegation[] @relation("allegation_victim_idTovictim")
+  allegation_victim_allegation_idToallegation allegation   @relation("victim_allegation_idToallegation", fields: [allegation_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user                                        user         @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}

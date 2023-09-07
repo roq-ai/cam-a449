@@ -1,0 +1,2572 @@
+[
+  {
+    "allegation": [
+      {
+        "id": "503f7129-f8f8-482b-89f7-6241f6ddcb1d",
+        "description": "Misuse of company funds",
+        "status": "Under investigation",
+        "created_at": "2023-09-07T05:11:08.552Z",
+        "updated_at": "2023-09-07T06:38:02.362Z"
+      },
+      {
+        "id": "25899ca6-de25-4fd4-ab5b-0a3226ba4312",
+        "description": "Discrimination in the workplace",
+        "status": "Resolved",
+        "created_at": "2023-09-06T15:57:40.945Z",
+        "updated_at": "2023-09-06T19:48:34.191Z"
+      },
+      {
+        "id": "6482ec1d-95be-431e-b4a7-e47cb821badf",
+        "description": "Harassment and bullying",
+        "status": "Pending review",
+        "created_at": "2023-09-07T06:23:42.423Z",
+        "updated_at": "2023-09-07T03:49:41.804Z"
+      },
+      {
+        "id": "6d4e463b-7280-4f0d-9e8f-c25aa7f0f7a9",
+        "description": "Violation of safety regulations",
+        "status": "Closed",
+        "created_at": "2023-09-06T17:56:41.129Z",
+        "updated_at": "2023-09-06T22:04:40.883Z"
+      },
+      {
+        "id": "bfe1a647-7f9b-4419-bafa-5a0f336e00e5",
+        "description": "Fraudulent activities",
+        "status": "In progress",
+        "created_at": "2023-09-07T09:37:33.261Z",
+        "updated_at": "2023-09-06T22:16:08.172Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "012e7558-9234-4e79-be78-49830da6bf7c",
+        "incident_date": "2023-09-07T14:48:40.825Z",
+        "incident_description": "Physical assault during a protest",
+        "incident_location": "City Park",
+        "created_at": "2023-09-06T22:34:00.450Z",
+        "updated_at": "2023-09-07T15:14:41.580Z",
+        "undefined": "bfe1a647-7f9b-4419-bafa-5a0f336e00e5",
+        "allegation_id": "bfe1a647-7f9b-4419-bafa-5a0f336e00e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b93bd65-30c2-4c4f-b0c9-2da3f8953e20",
+        "incident_date": "2023-09-06T22:53:52.377Z",
+        "incident_description": "Cyberbullying and online harassment",
+        "incident_location": "Online platform",
+        "created_at": "2023-09-07T01:50:41.128Z",
+        "updated_at": "2023-09-07T13:18:51.896Z",
+        "undefined": "6482ec1d-95be-431e-b4a7-e47cb821badf",
+        "allegation_id": "25899ca6-de25-4fd4-ab5b-0a3226ba4312",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d5ef377-1d66-47d8-a684-558353506838",
+        "incident_date": "2023-09-07T00:23:15.988Z",
+        "incident_description": "Sexual harassment in the workplace",
+        "incident_location": "Office premises",
+        "created_at": "2023-09-07T13:04:15.169Z",
+        "updated_at": "2023-09-07T13:04:52.374Z",
+        "undefined": "6d4e463b-7280-4f0d-9e8f-c25aa7f0f7a9",
+        "allegation_id": "6482ec1d-95be-431e-b4a7-e47cb821badf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bc47592-9758-482e-af27-7340d61f1606",
+        "incident_date": "2023-09-07T04:59:33.320Z",
+        "incident_description": "Negligence leading to injury",
+        "incident_location": "Construction site",
+        "created_at": "2023-09-07T07:23:01.543Z",
+        "updated_at": "2023-09-06T22:42:12.853Z",
+        "undefined": "bfe1a647-7f9b-4419-bafa-5a0f336e00e5",
+        "allegation_id": "6482ec1d-95be-431e-b4a7-e47cb821badf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "778ce40a-667d-49db-8ec8-f80608616e0e",
+        "incident_date": "2023-09-07T07:43:25.550Z",
+        "incident_description": "Discrimination based on race",
+        "incident_location": "Public transportation",
+        "created_at": "2023-09-07T03:39:10.826Z",
+        "updated_at": "2023-09-07T09:04:28.901Z",
+        "undefined": "6482ec1d-95be-431e-b4a7-e47cb821badf",
+        "allegation_id": "6d4e463b-7280-4f0d-9e8f-c25aa7f0f7a9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "8604ed23-77a9-4c30-a4eb-e686813ffa47",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Termination of employment",
+        "incident_remarks": "Unacceptable behavior",
+        "created_at": "2023-09-07T07:46:06.258Z",
+        "updated_at": "2023-09-07T04:25:04.724Z",
+        "undefined": "503f7129-f8f8-482b-89f7-6241f6ddcb1d",
+        "allegation_id": "25899ca6-de25-4fd4-ab5b-0a3226ba4312",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7697f43f-4d96-43e8-855f-c23ea39ce677",
+        "incident_role": "Colleague",
+        "incident_consequence": "Written warning",
+        "incident_remarks": "Breach of code of conduct",
+        "created_at": "2023-09-07T05:18:30.567Z",
+        "updated_at": "2023-09-06T18:18:06.715Z",
+        "undefined": "503f7129-f8f8-482b-89f7-6241f6ddcb1d",
+        "allegation_id": "25899ca6-de25-4fd4-ab5b-0a3226ba4312",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5553a130-d927-41f0-9e2b-e52d7a57fa51",
+        "incident_role": "Manager",
+        "incident_consequence": "Demotion",
+        "incident_remarks": "Violation of company policies",
+        "created_at": "2023-09-07T12:05:20.819Z",
+        "updated_at": "2023-09-06T20:18:54.272Z",
+        "undefined": "503f7129-f8f8-482b-89f7-6241f6ddcb1d",
+        "allegation_id": "bfe1a647-7f9b-4419-bafa-5a0f336e00e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abce4799-f465-4962-82c1-5db22c96bda6",
+        "incident_role": "Customer",
+        "incident_consequence": "Legal action",
+        "incident_remarks": "Disregard for safety protocols",
+        "created_at": "2023-09-07T05:18:57.312Z",
+        "updated_at": "2023-09-07T13:38:20.774Z",
+        "undefined": "6482ec1d-95be-431e-b4a7-e47cb821badf",
+        "allegation_id": "503f7129-f8f8-482b-89f7-6241f6ddcb1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7c284d0-e01e-47cf-aa15-eb15fbd043d0",
+        "incident_role": "Employee",
+        "incident_consequence": "Training and counseling",
+        "incident_remarks": "Inappropriate actions",
+        "created_at": "2023-09-07T06:38:00.126Z",
+        "updated_at": "2023-09-07T14:43:30.479Z",
+        "undefined": "25899ca6-de25-4fd4-ab5b-0a3226ba4312",
+        "allegation_id": "6d4e463b-7280-4f0d-9e8f-c25aa7f0f7a9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "d3890c88-07b6-4bb0-b695-612d1a57dc6b",
+        "investigation_status": "Ongoing",
+        "investigation_result": "Evidence of wrongdoing found",
+        "investigation_date": "2023-09-07T02:43:31.591Z",
+        "created_at": "2023-09-07T12:05:58.480Z",
+        "updated_at": "2023-09-07T14:27:49.801Z",
+        "undefined": "503f7129-f8f8-482b-89f7-6241f6ddcb1d",
+        "assigned_allegation_id": "503f7129-f8f8-482b-89f7-6241f6ddcb1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3277e09e-517e-4ebd-8c92-dc955ef8560f",
+        "investigation_status": "Completed",
+        "investigation_result": "No evidence to support allegations",
+        "investigation_date": "2023-09-07T11:14:11.333Z",
+        "created_at": "2023-09-06T16:06:22.833Z",
+        "updated_at": "2023-09-07T07:31:52.362Z",
+        "undefined": "25899ca6-de25-4fd4-ab5b-0a3226ba4312",
+        "assigned_allegation_id": "bfe1a647-7f9b-4419-bafa-5a0f336e00e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58debabe-d0fc-4908-8997-073f7b10bcfe",
+        "investigation_status": "Pending",
+        "investigation_result": "Recommendations for policy changes",
+        "investigation_date": "2023-09-07T15:19:12.138Z",
+        "created_at": "2023-09-07T03:05:23.210Z",
+        "updated_at": "2023-09-06T23:43:19.971Z",
+        "undefined": "6d4e463b-7280-4f0d-9e8f-c25aa7f0f7a9",
+        "assigned_allegation_id": "25899ca6-de25-4fd4-ab5b-0a3226ba4312",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "299bb8c2-8535-4249-afeb-83f13f897d78",
+        "investigation_status": "Closed",
+        "investigation_result": "Internal process improvements identified",
+        "investigation_date": "2023-09-07T15:28:48.365Z",
+        "created_at": "2023-09-07T03:31:08.310Z",
+        "updated_at": "2023-09-07T07:22:06.300Z",
+        "undefined": "bfe1a647-7f9b-4419-bafa-5a0f336e00e5",
+        "assigned_allegation_id": "bfe1a647-7f9b-4419-bafa-5a0f336e00e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "762c0b1d-feca-4ccf-896c-98202cdc104e",
+        "investigation_status": "In progress",
+        "investigation_result": "Collaboration with external authorities required",
+        "investigation_date": "2023-09-07T10:45:55.642Z",
+        "created_at": "2023-09-06T16:14:00.290Z",
+        "updated_at": "2023-09-06T16:04:14.077Z",
+        "undefined": "bfe1a647-7f9b-4419-bafa-5a0f336e00e5",
+        "assigned_allegation_id": "6d4e463b-7280-4f0d-9e8f-c25aa7f0f7a9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "14c9176b-a5b7-421f-858b-0e5cc59b5193",
+        "email": "April.Swift@hotmail.com",
+        "firstName": "Kenton",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/710.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "90624496-5209-460a-a442-836c60707806",
+        "email": "Mattie_Flatley@hotmail.com",
+        "firstName": "Helga",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/578.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c22af669-e319-4871-b319-0641e1ab2cb4",
+        "email": "Camilla_Boehm@yahoo.com",
+        "firstName": "Michel",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51089811",
+        "tenantId": null
+      },
+      {
+        "reference": "cbb5c8ab-46be-4ec5-a859-106dfce9a6b5",
+        "email": "Mittie_Borer@gmail.com",
+        "firstName": "Terence",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1109.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b687fccd-5ad3-4c09-9bfa-8be2ab901f28",
+        "email": "Angela42@gmail.com",
+        "firstName": "Madisyn",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1111.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "allegation": [
+      {
+        "id": "dfa20741-e686-4926-9b6c-02661c490485",
+        "description": "Misconduct in the workplace",
+        "status": "Under investigation",
+        "created_at": "2023-09-07T13:48:53.331Z",
+        "updated_at": "2023-09-06T21:00:13.064Z"
+      },
+      {
+        "id": "caa61ccd-bdfc-4e59-9d6a-dc73c911a0a8",
+        "description": "Discrimination based on race",
+        "status": "Resolved",
+        "created_at": "2023-09-07T13:49:25.508Z",
+        "updated_at": "2023-09-07T07:21:17.617Z"
+      },
+      {
+        "id": "caffa6c9-f962-487a-b857-402100098da9",
+        "description": "Fraudulent financial activities",
+        "status": "Pending review",
+        "created_at": "2023-09-07T04:08:44.703Z",
+        "updated_at": "2023-09-06T21:12:59.717Z"
+      },
+      {
+        "id": "b0543361-3115-4e31-a0b0-65574f66431e",
+        "description": "Harassment and bullying",
+        "status": "Closed",
+        "created_at": "2023-09-06T16:14:57.744Z",
+        "updated_at": "2023-09-06T17:26:02.835Z"
+      },
+      {
+        "id": "c9e0bb39-2ead-459b-8f10-cd32dbb7e116",
+        "description": "Violation of company policies",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T17:38:12.113Z",
+        "updated_at": "2023-09-06T17:11:00.019Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "230aec6e-6c6c-42ac-9ac5-8d8eeda2b918",
+        "incident_date": "2023-09-07T00:35:39.009Z",
+        "incident_description": "Physical assault by a coworker",
+        "incident_location": "Office building",
+        "created_at": "2023-09-07T02:26:51.075Z",
+        "updated_at": "2023-09-07T06:16:31.567Z",
+        "undefined": "b0543361-3115-4e31-a0b0-65574f66431e",
+        "allegation_id": "c9e0bb39-2ead-459b-8f10-cd32dbb7e116",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e580c835-dac7-4fe3-9efe-fc0ae9eebac6",
+        "incident_date": "2023-09-07T04:36:02.392Z",
+        "incident_description": "Workplace accident resulting in injury",
+        "incident_location": "Construction site",
+        "created_at": "2023-09-07T06:34:19.444Z",
+        "updated_at": "2023-09-07T14:00:20.595Z",
+        "undefined": "b0543361-3115-4e31-a0b0-65574f66431e",
+        "allegation_id": "dfa20741-e686-4926-9b6c-02661c490485",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0211ffd7-7f02-48a4-8549-cbc5d19b104a",
+        "incident_date": "2023-09-06T17:34:02.704Z",
+        "incident_description": "Discrimination based on gender identity",
+        "incident_location": "Public park",
+        "created_at": "2023-09-07T10:25:52.761Z",
+        "updated_at": "2023-09-06T18:53:12.409Z",
+        "undefined": "caffa6c9-f962-487a-b857-402100098da9",
+        "allegation_id": "b0543361-3115-4e31-a0b0-65574f66431e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8f5f592-dadc-4ae4-9f6f-430ffacfb035",
+        "incident_date": "2023-09-06T20:04:02.116Z",
+        "incident_description": "Cyberbullying and online harassment",
+        "incident_location": "Restaurant",
+        "created_at": "2023-09-06T20:41:06.343Z",
+        "updated_at": "2023-09-06T23:42:30.053Z",
+        "undefined": "b0543361-3115-4e31-a0b0-65574f66431e",
+        "allegation_id": "c9e0bb39-2ead-459b-8f10-cd32dbb7e116",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e8c54a5-fe15-4c08-a0b3-0a1a24549a83",
+        "incident_date": "2023-09-06T17:30:47.204Z",
+        "incident_description": "Sexual harassment in the workplace",
+        "incident_location": "School campus",
+        "created_at": "2023-09-07T12:41:38.863Z",
+        "updated_at": "2023-09-07T08:57:34.639Z",
+        "undefined": "caffa6c9-f962-487a-b857-402100098da9",
+        "allegation_id": "dfa20741-e686-4926-9b6c-02661c490485",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "07b1eacc-2e35-4aa4-b2fc-46c746e2ec7e",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Termination of employment",
+        "incident_remarks": "Unacceptable behavior towards colleagues",
+        "created_at": "2023-09-07T08:01:34.739Z",
+        "updated_at": "2023-09-07T14:33:38.306Z",
+        "undefined": "dfa20741-e686-4926-9b6c-02661c490485",
+        "allegation_id": "c9e0bb39-2ead-459b-8f10-cd32dbb7e116",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f24ad777-fe52-4944-bee4-ec046c4192b5",
+        "incident_role": "Colleague",
+        "incident_consequence": "Legal action and fines",
+        "incident_remarks": "Breach of professional ethics",
+        "created_at": "2023-09-07T05:34:06.785Z",
+        "updated_at": "2023-09-07T05:32:04.009Z",
+        "undefined": "caffa6c9-f962-487a-b857-402100098da9",
+        "allegation_id": "dfa20741-e686-4926-9b6c-02661c490485",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fffc7e18-d6a3-4a14-b396-27144e961fc5",
+        "incident_role": "Customer",
+        "incident_consequence": "Reputation damage",
+        "incident_remarks": "Violation of company policies",
+        "created_at": "2023-09-06T15:46:30.744Z",
+        "updated_at": "2023-09-07T15:17:28.187Z",
+        "undefined": "c9e0bb39-2ead-459b-8f10-cd32dbb7e116",
+        "allegation_id": "caffa6c9-f962-487a-b857-402100098da9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07762279-fb47-46d7-9324-a2cef44c02aa",
+        "incident_role": "Client",
+        "incident_consequence": "Loss of business contracts",
+        "incident_remarks": "Failure to adhere to safety regulations",
+        "created_at": "2023-09-06T21:34:55.688Z",
+        "updated_at": "2023-09-07T09:18:00.706Z",
+        "undefined": "b0543361-3115-4e31-a0b0-65574f66431e",
+        "allegation_id": "caa61ccd-bdfc-4e59-9d6a-dc73c911a0a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4daa2119-5046-4991-bad9-39e8b32fdcd7",
+        "incident_role": "Business partner",
+        "incident_consequence": "Mandatory training and counseling",
+        "incident_remarks": "Disregard for others' well-being",
+        "created_at": "2023-09-07T14:14:16.160Z",
+        "updated_at": "2023-09-06T17:06:56.614Z",
+        "undefined": "caffa6c9-f962-487a-b857-402100098da9",
+        "allegation_id": "caa61ccd-bdfc-4e59-9d6a-dc73c911a0a8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "aafd31c2-d0b2-4552-b0bc-19e27fff5403",
+        "investigation_status": "In progress",
+        "investigation_result": "Evidence of wrongdoing found",
+        "investigation_date": "2023-09-06T18:45:18.225Z",
+        "created_at": "2023-09-07T00:42:00.551Z",
+        "updated_at": "2023-09-07T09:51:29.911Z",
+        "undefined": "c9e0bb39-2ead-459b-8f10-cd32dbb7e116",
+        "assigned_allegation_id": "c9e0bb39-2ead-459b-8f10-cd32dbb7e116",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73e34678-3d94-411c-964b-e255ea0adec0",
+        "investigation_status": "Completed",
+        "investigation_result": "No evidence of wrongdoing",
+        "investigation_date": "2023-09-07T12:32:16.190Z",
+        "created_at": "2023-09-06T16:42:34.016Z",
+        "updated_at": "2023-09-07T15:07:32.977Z",
+        "undefined": "caffa6c9-f962-487a-b857-402100098da9",
+        "assigned_allegation_id": "caa61ccd-bdfc-4e59-9d6a-dc73c911a0a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68128252-b2ed-49e4-b02c-924e87489b99",
+        "investigation_status": "Pending review",
+        "investigation_result": "Insufficient evidence to make a conclusion",
+        "investigation_date": "2023-09-07T08:29:03.679Z",
+        "created_at": "2023-09-07T14:27:37.126Z",
+        "updated_at": "2023-09-07T00:59:43.712Z",
+        "undefined": "caa61ccd-bdfc-4e59-9d6a-dc73c911a0a8",
+        "assigned_allegation_id": "caa61ccd-bdfc-4e59-9d6a-dc73c911a0a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "666ad182-605a-4462-b8cb-6e22bca0e67d",
+        "investigation_status": "Closed",
+        "investigation_result": "Recommendations for improvement provided",
+        "investigation_date": "2023-09-07T13:17:30.420Z",
+        "created_at": "2023-09-07T14:42:43.618Z",
+        "updated_at": "2023-09-07T09:28:48.402Z",
+        "undefined": "c9e0bb39-2ead-459b-8f10-cd32dbb7e116",
+        "assigned_allegation_id": "caa61ccd-bdfc-4e59-9d6a-dc73c911a0a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "632fb9c2-a8a0-41d2-98a6-a8694a05dce8",
+        "investigation_status": "Ongoing",
+        "investigation_result": "Collaboration with external agencies required",
+        "investigation_date": "2023-09-06T21:32:28.893Z",
+        "created_at": "2023-09-06T16:55:44.151Z",
+        "updated_at": "2023-09-07T10:22:34.097Z",
+        "undefined": "c9e0bb39-2ead-459b-8f10-cd32dbb7e116",
+        "assigned_allegation_id": "dfa20741-e686-4926-9b6c-02661c490485",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d34a0b2-e1d3-4ffd-86dc-8458f86b502a",
+        "email": "Dorothea.Aufderhar35@gmail.com",
+        "firstName": "Nat",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89215483",
+        "tenantId": null
+      },
+      {
+        "reference": "eda9f51e-56cd-491c-95be-a69d3a4e45c0",
+        "email": "Ally38@gmail.com",
+        "firstName": "Maegan",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5534668",
+        "tenantId": null
+      },
+      {
+        "reference": "2af3e328-16dd-4258-a792-1c7683c6f2b0",
+        "email": "Valentine11@gmail.com",
+        "firstName": "Nella",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/764.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3cf56025-8cc6-462a-8c7a-d60f03ff79cf",
+        "email": "Emmet_Marks86@hotmail.com",
+        "firstName": "Rex",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65859083",
+        "tenantId": null
+      },
+      {
+        "reference": "aec5d210-f449-46fd-b135-259d56096b26",
+        "email": "Magnus.Fadel0@hotmail.com",
+        "firstName": "Freida",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/662.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "allegation": [
+      {
+        "id": "26db8f8b-6e58-4d93-b49a-afc94cab91db",
+        "description": "Misuse of funds",
+        "status": "Under investigation",
+        "created_at": "2023-09-06T15:52:20.234Z",
+        "updated_at": "2023-09-07T00:31:15.871Z"
+      },
+      {
+        "id": "65de5e3a-dd96-47e7-832c-5694b9bbd085",
+        "description": "Discrimination in the workplace",
+        "status": "Resolved",
+        "created_at": "2023-09-07T06:45:57.468Z",
+        "updated_at": "2023-09-06T17:49:48.694Z"
+      },
+      {
+        "id": "c4e8bcfb-9085-483e-80e5-94a48d06987a",
+        "description": "Bribery and corruption",
+        "status": "Pending review",
+        "created_at": "2023-09-07T12:44:46.624Z",
+        "updated_at": "2023-09-06T16:19:04.973Z"
+      },
+      {
+        "id": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "description": "Harassment and bullying",
+        "status": "Dismissed",
+        "created_at": "2023-09-07T10:00:45.756Z",
+        "updated_at": "2023-09-07T05:06:45.056Z"
+      },
+      {
+        "id": "ddc60ca1-cb0e-46e1-b3aa-7e172e130a19",
+        "description": "Violation of company policies",
+        "status": "In progress",
+        "created_at": "2023-09-07T05:06:36.450Z",
+        "updated_at": "2023-09-06T21:11:01.540Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "54fcf972-6a16-43c6-a042-a50bc2019de7",
+        "incident_date": "2023-09-07T00:46:03.070Z",
+        "incident_description": "Physical assault during a protest",
+        "incident_location": "City Park",
+        "created_at": "2023-09-06T23:06:59.102Z",
+        "updated_at": "2023-09-07T03:18:35.191Z",
+        "undefined": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "allegation_id": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e746aa3-44c7-43e8-9cd1-e6b187854d40",
+        "incident_date": "2023-09-07T08:34:04.438Z",
+        "incident_description": "Discriminatory treatment based on race",
+        "incident_location": "Corporate office",
+        "created_at": "2023-09-07T06:33:23.433Z",
+        "updated_at": "2023-09-07T15:16:54.061Z",
+        "undefined": "65de5e3a-dd96-47e7-832c-5694b9bbd085",
+        "allegation_id": "65de5e3a-dd96-47e7-832c-5694b9bbd085",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e5638ea-d342-4d37-af96-9ea38b613e69",
+        "incident_date": "2023-09-07T10:00:17.070Z",
+        "incident_description": "Sexual harassment in the workplace",
+        "incident_location": "School campus",
+        "created_at": "2023-09-06T16:42:27.221Z",
+        "updated_at": "2023-09-07T09:31:56.453Z",
+        "undefined": "26db8f8b-6e58-4d93-b49a-afc94cab91db",
+        "allegation_id": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5306fc46-b510-4ce8-9a34-4a532847f80d",
+        "incident_date": "2023-09-07T04:24:25.030Z",
+        "incident_description": "Cyberbullying and online harassment",
+        "incident_location": "Social media platform",
+        "created_at": "2023-09-06T23:45:17.039Z",
+        "updated_at": "2023-09-07T03:40:06.380Z",
+        "undefined": "65de5e3a-dd96-47e7-832c-5694b9bbd085",
+        "allegation_id": "c4e8bcfb-9085-483e-80e5-94a48d06987a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d78bb490-d6b7-4181-b1a2-e3834968bc3e",
+        "incident_date": "2023-09-06T18:57:41.244Z",
+        "incident_description": "Negligence leading to injury",
+        "incident_location": "Construction site",
+        "created_at": "2023-09-06T21:49:47.846Z",
+        "updated_at": "2023-09-07T08:00:20.025Z",
+        "undefined": "26db8f8b-6e58-4d93-b49a-afc94cab91db",
+        "allegation_id": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "5e440d72-8fc3-4497-9b76-59f5548107eb",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Termination of employment",
+        "incident_remarks": "No remorse shown",
+        "created_at": "2023-09-07T15:03:12.097Z",
+        "updated_at": "2023-09-06T19:11:14.257Z",
+        "undefined": "c4e8bcfb-9085-483e-80e5-94a48d06987a",
+        "allegation_id": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb33af87-1d06-4e8c-bcb6-284c83b51919",
+        "incident_role": "Co-worker",
+        "incident_consequence": "Written warning",
+        "incident_remarks": "Apologized and expressed regret",
+        "created_at": "2023-09-07T12:53:54.543Z",
+        "updated_at": "2023-09-07T01:57:04.632Z",
+        "undefined": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "allegation_id": "ddc60ca1-cb0e-46e1-b3aa-7e172e130a19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "152800fd-0259-46f6-b1fd-37dca9a021e7",
+        "incident_role": "Teacher",
+        "incident_consequence": "Suspension without pay",
+        "incident_remarks": "Denied allegations",
+        "created_at": "2023-09-07T02:40:26.444Z",
+        "updated_at": "2023-09-07T15:10:02.185Z",
+        "undefined": "ddc60ca1-cb0e-46e1-b3aa-7e172e130a19",
+        "allegation_id": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f0e46a7-0f6e-40e1-a662-9e6b3528c30d",
+        "incident_role": "Online troll",
+        "incident_consequence": "Community service",
+        "incident_remarks": "Cooperated fully with investigation",
+        "created_at": "2023-09-06T17:57:01.558Z",
+        "updated_at": "2023-09-07T04:03:13.568Z",
+        "undefined": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "allegation_id": "c4e8bcfb-9085-483e-80e5-94a48d06987a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e3fa328-e82f-454d-9cbe-7daf642a71dc",
+        "incident_role": "Contractor",
+        "incident_consequence": "Compensation to victim",
+        "incident_remarks": "Accepted responsibility",
+        "created_at": "2023-09-07T14:03:55.882Z",
+        "updated_at": "2023-09-06T19:39:36.899Z",
+        "undefined": "65de5e3a-dd96-47e7-832c-5694b9bbd085",
+        "allegation_id": "65de5e3a-dd96-47e7-832c-5694b9bbd085",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "25187122-2dcf-4067-a8bf-46a38de99592",
+        "investigation_status": "Open",
+        "investigation_result": "Substantiated",
+        "investigation_date": "2023-09-07T10:38:08.837Z",
+        "created_at": "2023-09-07T04:32:29.664Z",
+        "updated_at": "2023-09-06T17:20:08.821Z",
+        "undefined": "65de5e3a-dd96-47e7-832c-5694b9bbd085",
+        "assigned_allegation_id": "ddc60ca1-cb0e-46e1-b3aa-7e172e130a19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4498972c-5bee-4a13-b3dd-d304de065471",
+        "investigation_status": "Closed",
+        "investigation_result": "Unsubstantiated",
+        "investigation_date": "2023-09-07T03:41:30.233Z",
+        "created_at": "2023-09-06T23:44:01.512Z",
+        "updated_at": "2023-09-07T13:24:10.181Z",
+        "undefined": "c09b5e9b-7ade-4515-b9f1-6801fdc70afe",
+        "assigned_allegation_id": "ddc60ca1-cb0e-46e1-b3aa-7e172e130a19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8a1a5e2-572f-4395-b854-d67538148b4d",
+        "investigation_status": "Ongoing",
+        "investigation_result": "Inconclusive",
+        "investigation_date": "2023-09-07T00:46:08.408Z",
+        "created_at": "2023-09-07T01:36:34.977Z",
+        "updated_at": "2023-09-07T15:20:38.655Z",
+        "undefined": "26db8f8b-6e58-4d93-b49a-afc94cab91db",
+        "assigned_allegation_id": "ddc60ca1-cb0e-46e1-b3aa-7e172e130a19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae5c5f86-aff1-4e5b-b1c5-86c997326140",
+        "investigation_status": "Pending",
+        "investigation_result": "Partially substantiated",
+        "investigation_date": "2023-09-06T23:28:04.757Z",
+        "created_at": "2023-09-07T06:01:04.545Z",
+        "updated_at": "2023-09-06T22:41:53.453Z",
+        "undefined": "26db8f8b-6e58-4d93-b49a-afc94cab91db",
+        "assigned_allegation_id": "c4e8bcfb-9085-483e-80e5-94a48d06987a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afa81f03-7155-4e43-a3ba-093bcd9c3162",
+        "investigation_status": "Finalized",
+        "investigation_result": "No evidence found",
+        "investigation_date": "2023-09-07T12:11:04.232Z",
+        "created_at": "2023-09-06T22:56:53.935Z",
+        "updated_at": "2023-09-06T22:25:58.969Z",
+        "undefined": "c4e8bcfb-9085-483e-80e5-94a48d06987a",
+        "assigned_allegation_id": "c4e8bcfb-9085-483e-80e5-94a48d06987a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a659eecc-b901-4bb9-b999-b497fa38c4d9",
+        "email": "Kara.Jast@gmail.com",
+        "firstName": "Raymundo",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26982714",
+        "tenantId": null
+      },
+      {
+        "reference": "b82290b1-1bcb-4996-9d18-5b953b01b6ca",
+        "email": "Esperanza_Spinka45@hotmail.com",
+        "firstName": "Madyson",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54899042",
+        "tenantId": null
+      },
+      {
+        "reference": "d1308cb9-87af-4ce2-8e7f-963b6764bb4e",
+        "email": "Dayton.Sauer@yahoo.com",
+        "firstName": "Jackie",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/501.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da361e31-e7ef-4168-9c4d-d5f146e0149c",
+        "email": "Wayne_Hermiston29@gmail.com",
+        "firstName": "Eulalia",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/166.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7d156766-931f-4a03-8f7b-c0379a4d7885",
+        "email": "Kylie71@gmail.com",
+        "firstName": "Jeff",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/416.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "allegation": [
+      {
+        "id": "fec59192-ec26-45b3-9a03-803090e06b13",
+        "description": "Misconduct in the workplace",
+        "status": "Under investigation",
+        "created_at": "2023-09-07T06:40:06.118Z",
+        "updated_at": "2023-09-07T05:26:54.804Z"
+      },
+      {
+        "id": "9bab0072-e49c-4f69-a648-be6dcd89142e",
+        "description": "Financial fraud",
+        "status": "Resolved",
+        "created_at": "2023-09-07T02:52:24.437Z",
+        "updated_at": "2023-09-06T19:31:55.709Z"
+      },
+      {
+        "id": "375bfd56-e6fd-4171-a919-73f3c926bd14",
+        "description": "Discrimination based on gender",
+        "status": "Pending review",
+        "created_at": "2023-09-07T12:24:04.095Z",
+        "updated_at": "2023-09-07T03:02:38.906Z"
+      },
+      {
+        "id": "d0864322-7e65-4c37-8c42-bd9486d327bd",
+        "description": "Harassment and bullying",
+        "status": "Dismissed",
+        "created_at": "2023-09-07T08:41:23.666Z",
+        "updated_at": "2023-09-06T23:01:15.643Z"
+      },
+      {
+        "id": "6b4b2c93-c4d8-41f0-a2c8-4d43c8038824",
+        "description": "Violation of company policies",
+        "status": "Confirmed",
+        "created_at": "2023-09-07T11:00:00.865Z",
+        "updated_at": "2023-09-07T07:21:43.188Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "7fab898e-1150-43c8-a874-2b3223bce569",
+        "incident_date": "2023-09-06T18:44:00.866Z",
+        "incident_description": "Physical assault by a co-worker",
+        "incident_location": "Office building",
+        "created_at": "2023-09-07T07:57:10.073Z",
+        "updated_at": "2023-09-07T06:25:04.607Z",
+        "undefined": "9bab0072-e49c-4f69-a648-be6dcd89142e",
+        "allegation_id": "9bab0072-e49c-4f69-a648-be6dcd89142e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31e5f321-3a85-4279-a7ea-c7a419e9885f",
+        "incident_date": "2023-09-06T21:08:01.530Z",
+        "incident_description": "Theft of personal belongings",
+        "incident_location": "Construction site",
+        "created_at": "2023-09-06T21:20:05.618Z",
+        "updated_at": "2023-09-07T09:23:36.662Z",
+        "undefined": "6b4b2c93-c4d8-41f0-a2c8-4d43c8038824",
+        "allegation_id": "375bfd56-e6fd-4171-a919-73f3c926bd14",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "940956c5-c954-4bdd-8ea0-ee64b3ca7602",
+        "incident_date": "2023-09-07T11:46:43.568Z",
+        "incident_description": "Verbal abuse and threats",
+        "incident_location": "Public park",
+        "created_at": "2023-09-06T16:09:52.895Z",
+        "updated_at": "2023-09-07T10:31:17.040Z",
+        "undefined": "9bab0072-e49c-4f69-a648-be6dcd89142e",
+        "allegation_id": "fec59192-ec26-45b3-9a03-803090e06b13",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "813857a5-564e-482c-8b7d-d2944dd3be76",
+        "incident_date": "2023-09-06T22:34:18.791Z",
+        "incident_description": "Workplace accident resulting in injury",
+        "incident_location": "Restaurant",
+        "created_at": "2023-09-07T14:21:50.671Z",
+        "updated_at": "2023-09-07T03:18:14.455Z",
+        "undefined": "fec59192-ec26-45b3-9a03-803090e06b13",
+        "allegation_id": "d0864322-7e65-4c37-8c42-bd9486d327bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "107f8e7f-dc11-42bc-ba76-f8b211dd97b8",
+        "incident_date": "2023-09-06T21:45:13.851Z",
+        "incident_description": "Sexual harassment",
+        "incident_location": "School campus",
+        "created_at": "2023-09-07T12:01:28.621Z",
+        "updated_at": "2023-09-07T10:32:18.745Z",
+        "undefined": "d0864322-7e65-4c37-8c42-bd9486d327bd",
+        "allegation_id": "375bfd56-e6fd-4171-a919-73f3c926bd14",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "45dbc19f-867e-4045-b2ad-e7abd8a727eb",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Termination of employment",
+        "incident_remarks": "Repeat offender",
+        "created_at": "2023-09-07T12:26:01.717Z",
+        "updated_at": "2023-09-07T14:17:04.316Z",
+        "undefined": "375bfd56-e6fd-4171-a919-73f3c926bd14",
+        "allegation_id": "375bfd56-e6fd-4171-a919-73f3c926bd14",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f65f4ca4-689e-4b3e-aafd-9fccce5af471",
+        "incident_role": "Colleague",
+        "incident_consequence": "Legal action",
+        "incident_remarks": "First-time offense",
+        "created_at": "2023-09-07T11:01:09.356Z",
+        "updated_at": "2023-09-06T21:41:33.157Z",
+        "undefined": "d0864322-7e65-4c37-8c42-bd9486d327bd",
+        "allegation_id": "6b4b2c93-c4d8-41f0-a2c8-4d43c8038824",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0823dbfd-84e4-41e9-98de-66d166dc45da",
+        "incident_role": "Customer",
+        "incident_consequence": "Written warning",
+        "incident_remarks": "Cooperated during investigation",
+        "created_at": "2023-09-06T20:02:13.993Z",
+        "updated_at": "2023-09-07T03:37:15.187Z",
+        "undefined": "d0864322-7e65-4c37-8c42-bd9486d327bd",
+        "allegation_id": "fec59192-ec26-45b3-9a03-803090e06b13",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06c26d1e-9623-4d37-ab67-9b5580e55ca7",
+        "incident_role": "Vendor",
+        "incident_consequence": "Suspension without pay",
+        "incident_remarks": "Expressed remorse",
+        "created_at": "2023-09-07T03:02:41.144Z",
+        "updated_at": "2023-09-06T22:33:39.508Z",
+        "undefined": "9bab0072-e49c-4f69-a648-be6dcd89142e",
+        "allegation_id": "6b4b2c93-c4d8-41f0-a2c8-4d43c8038824",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e34b5593-ba7b-4e44-86c8-57b36dde9197",
+        "incident_role": "Contractor",
+        "incident_consequence": "Mandatory training",
+        "incident_remarks": "No prior incidents",
+        "created_at": "2023-09-07T10:19:54.428Z",
+        "updated_at": "2023-09-07T00:52:06.237Z",
+        "undefined": "6b4b2c93-c4d8-41f0-a2c8-4d43c8038824",
+        "allegation_id": "d0864322-7e65-4c37-8c42-bd9486d327bd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "56e30696-0981-4d8d-8e36-b4fdeb62d3c2",
+        "investigation_status": "Ongoing",
+        "investigation_result": "Substantiated",
+        "investigation_date": "2023-09-07T07:28:49.649Z",
+        "created_at": "2023-09-07T11:41:21.460Z",
+        "updated_at": "2023-09-06T20:51:37.708Z",
+        "undefined": "fec59192-ec26-45b3-9a03-803090e06b13",
+        "assigned_allegation_id": "375bfd56-e6fd-4171-a919-73f3c926bd14",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bfa8a1f-4e13-40cf-b79d-444b2ab4d459",
+        "investigation_status": "Completed",
+        "investigation_result": "Unsubstantiated",
+        "investigation_date": "2023-09-07T03:01:56.095Z",
+        "created_at": "2023-09-07T00:25:45.194Z",
+        "updated_at": "2023-09-06T21:58:47.151Z",
+        "undefined": "9bab0072-e49c-4f69-a648-be6dcd89142e",
+        "assigned_allegation_id": "fec59192-ec26-45b3-9a03-803090e06b13",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e69877aa-a474-43cc-bc9e-68bf918e501b",
+        "investigation_status": "Pending",
+        "investigation_result": "Inconclusive",
+        "investigation_date": "2023-09-07T04:03:53.955Z",
+        "created_at": "2023-09-07T02:53:00.855Z",
+        "updated_at": "2023-09-07T06:42:52.774Z",
+        "undefined": "6b4b2c93-c4d8-41f0-a2c8-4d43c8038824",
+        "assigned_allegation_id": "fec59192-ec26-45b3-9a03-803090e06b13",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfcde5da-273b-4a7d-b1f2-57a82349f00a",
+        "investigation_status": "Closed",
+        "investigation_result": "Partially substantiated",
+        "investigation_date": "2023-09-07T11:36:42.573Z",
+        "created_at": "2023-09-07T03:37:32.623Z",
+        "updated_at": "2023-09-07T12:07:27.363Z",
+        "undefined": "fec59192-ec26-45b3-9a03-803090e06b13",
+        "assigned_allegation_id": "9bab0072-e49c-4f69-a648-be6dcd89142e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45b51ce2-53be-4a3c-9208-ba013216c687",
+        "investigation_status": "In progress",
+        "investigation_result": "Not applicable",
+        "investigation_date": "2023-09-06T23:40:44.330Z",
+        "created_at": "2023-09-06T17:30:19.013Z",
+        "updated_at": "2023-09-06T18:57:09.197Z",
+        "undefined": "375bfd56-e6fd-4171-a919-73f3c926bd14",
+        "assigned_allegation_id": "d0864322-7e65-4c37-8c42-bd9486d327bd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b5cf8ac1-d7b0-464d-bcc3-20769df2ad0a",
+        "email": "Frida.Hamill@yahoo.com",
+        "firstName": "Miguel",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/625.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1be9fd3f-5e34-439f-b07f-a3d58652fdf3",
+        "email": "Kyla.Tremblay67@hotmail.com",
+        "firstName": "Ferne",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/527.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5838be83-8ea5-44e9-a3f2-ca98fe68b61d",
+        "email": "Fletcher.Witting@gmail.com",
+        "firstName": "Norma",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65459853",
+        "tenantId": null
+      },
+      {
+        "reference": "d76c6441-cfda-4a4f-982e-308df30dc3bc",
+        "email": "Hertha88@hotmail.com",
+        "firstName": "Morgan",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/744.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "91b798e7-6466-4d28-8f13-a4be06f66653",
+        "email": "Eden.Schaden36@hotmail.com",
+        "firstName": "Juwan",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14234333",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "allegation": [
+      {
+        "id": "1c5b8027-5d0d-42ad-a57c-97e577873785",
+        "description": "Misconduct in the workplace",
+        "status": "Under investigation",
+        "created_at": "2023-09-06T18:59:10.747Z",
+        "updated_at": "2023-09-06T16:13:25.278Z"
+      },
+      {
+        "id": "f842d9a8-7b92-41e4-b1bb-7dc87d24d627",
+        "description": "Discrimination based on gender",
+        "status": "Resolved",
+        "created_at": "2023-09-07T15:03:09.159Z",
+        "updated_at": "2023-09-06T16:14:45.033Z"
+      },
+      {
+        "id": "5c0352b3-4be9-4bc6-942f-a2269e7e7c23",
+        "description": "Embezzlement of funds",
+        "status": "Pending review",
+        "created_at": "2023-09-06T21:34:39.298Z",
+        "updated_at": "2023-09-06T22:49:58.768Z"
+      },
+      {
+        "id": "4fd74ed9-6a59-4119-8821-81b2bf2145fa",
+        "description": "Bribery and corruption",
+        "status": "Dismissed",
+        "created_at": "2023-09-07T03:18:32.222Z",
+        "updated_at": "2023-09-07T09:05:17.390Z"
+      },
+      {
+        "id": "6dcfe49f-7f53-4b9f-8ca5-86c1cac2bb99",
+        "description": "Harassment and bullying",
+        "status": "In progress",
+        "created_at": "2023-09-07T07:15:13.184Z",
+        "updated_at": "2023-09-06T19:11:17.211Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "a9f96a2c-7494-4bbf-8b2d-9bca157d0c69",
+        "incident_date": "2023-09-07T04:51:20.706Z",
+        "incident_description": "Physical assault in public",
+        "incident_location": "City park",
+        "created_at": "2023-09-07T04:53:30.094Z",
+        "updated_at": "2023-09-07T11:21:35.200Z",
+        "undefined": "4fd74ed9-6a59-4119-8821-81b2bf2145fa",
+        "allegation_id": "4fd74ed9-6a59-4119-8821-81b2bf2145fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ab9d70f-e402-4081-8271-c14712738438",
+        "incident_date": "2023-09-06T21:58:41.199Z",
+        "incident_description": "Theft of personal belongings",
+        "incident_location": "Shopping mall",
+        "created_at": "2023-09-07T11:39:32.519Z",
+        "updated_at": "2023-09-06T16:31:48.466Z",
+        "undefined": "f842d9a8-7b92-41e4-b1bb-7dc87d24d627",
+        "allegation_id": "1c5b8027-5d0d-42ad-a57c-97e577873785",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92d984cf-a297-460e-a8c1-8f82e682454f",
+        "incident_date": "2023-09-07T01:19:52.354Z",
+        "incident_description": "Online harassment and cyberbullying",
+        "incident_location": "Social media platform",
+        "created_at": "2023-09-07T01:44:36.208Z",
+        "updated_at": "2023-09-07T14:17:52.518Z",
+        "undefined": "5c0352b3-4be9-4bc6-942f-a2269e7e7c23",
+        "allegation_id": "1c5b8027-5d0d-42ad-a57c-97e577873785",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80a49380-3836-4bfa-b1ab-7b761407a7ba",
+        "incident_date": "2023-09-07T15:02:47.110Z",
+        "incident_description": "Property damage due to negligence",
+        "incident_location": "Residential area",
+        "created_at": "2023-09-07T03:56:42.197Z",
+        "updated_at": "2023-09-07T05:38:43.193Z",
+        "undefined": "4fd74ed9-6a59-4119-8821-81b2bf2145fa",
+        "allegation_id": "1c5b8027-5d0d-42ad-a57c-97e577873785",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e193d8d4-7b05-414b-b805-0c800b938f24",
+        "incident_date": "2023-09-07T15:28:46.283Z",
+        "incident_description": "Medical malpractice resulting in injury",
+        "incident_location": "Hospital",
+        "created_at": "2023-09-06T18:23:44.668Z",
+        "updated_at": "2023-09-07T14:00:35.441Z",
+        "undefined": "5c0352b3-4be9-4bc6-942f-a2269e7e7c23",
+        "allegation_id": "6dcfe49f-7f53-4b9f-8ca5-86c1cac2bb99",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "adecdb29-929f-4e01-a228-3db290024094",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Termination of employment",
+        "incident_remarks": "No prior history of misconduct",
+        "created_at": "2023-09-07T03:14:34.949Z",
+        "updated_at": "2023-09-07T05:28:12.790Z",
+        "undefined": "4fd74ed9-6a59-4119-8821-81b2bf2145fa",
+        "allegation_id": "4fd74ed9-6a59-4119-8821-81b2bf2145fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c141e5a0-a343-452b-b49d-ef2c06c38b2f",
+        "incident_role": "Colleague",
+        "incident_consequence": "Legal action and fines",
+        "incident_remarks": "Repeat offender",
+        "created_at": "2023-09-07T05:36:19.223Z",
+        "updated_at": "2023-09-07T06:33:16.758Z",
+        "undefined": "6dcfe49f-7f53-4b9f-8ca5-86c1cac2bb99",
+        "allegation_id": "1c5b8027-5d0d-42ad-a57c-97e577873785",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c352259e-0510-4ec0-aa31-706855109e1a",
+        "incident_role": "Family member",
+        "incident_consequence": "Reputation damage",
+        "incident_remarks": "Apologized and showed remorse",
+        "created_at": "2023-09-06T18:23:19.909Z",
+        "updated_at": "2023-09-07T01:41:28.321Z",
+        "undefined": "f842d9a8-7b92-41e4-b1bb-7dc87d24d627",
+        "allegation_id": "1c5b8027-5d0d-42ad-a57c-97e577873785",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4610ed21-ddf3-4c39-8b9c-b039ed7f4cbf",
+        "incident_role": "Stranger",
+        "incident_consequence": "Loss of trust and credibility",
+        "incident_remarks": "Attempted to cover up the incident",
+        "created_at": "2023-09-06T20:43:01.187Z",
+        "updated_at": "2023-09-06T23:48:18.145Z",
+        "undefined": "f842d9a8-7b92-41e4-b1bb-7dc87d24d627",
+        "allegation_id": "f842d9a8-7b92-41e4-b1bb-7dc87d24d627",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1572ae4b-1cea-4259-b044-cef96dd0bf80",
+        "incident_role": "Business partner",
+        "incident_consequence": "Financial penalties",
+        "incident_remarks": "Cooperated fully during investigation",
+        "created_at": "2023-09-06T16:13:26.085Z",
+        "updated_at": "2023-09-07T06:45:37.993Z",
+        "undefined": "1c5b8027-5d0d-42ad-a57c-97e577873785",
+        "allegation_id": "5c0352b3-4be9-4bc6-942f-a2269e7e7c23",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "5cce461f-c142-4ca5-b677-40d8675bdd79",
+        "investigation_status": "Open",
+        "investigation_result": "Substantiated allegations",
+        "investigation_date": "2023-09-07T02:56:00.121Z",
+        "created_at": "2023-09-07T09:00:11.140Z",
+        "updated_at": "2023-09-07T04:16:20.687Z",
+        "undefined": "6dcfe49f-7f53-4b9f-8ca5-86c1cac2bb99",
+        "assigned_allegation_id": "4fd74ed9-6a59-4119-8821-81b2bf2145fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19ffdd04-77e1-4b68-98a7-8d83e46037dd",
+        "investigation_status": "Closed",
+        "investigation_result": "Insufficient evidence",
+        "investigation_date": "2023-09-07T14:30:40.591Z",
+        "created_at": "2023-09-07T13:43:40.642Z",
+        "updated_at": "2023-09-06T19:45:02.362Z",
+        "undefined": "6dcfe49f-7f53-4b9f-8ca5-86c1cac2bb99",
+        "assigned_allegation_id": "6dcfe49f-7f53-4b9f-8ca5-86c1cac2bb99",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1468c181-2a40-4922-bb1c-02139b62cec8",
+        "investigation_status": "Ongoing",
+        "investigation_result": "False accusations",
+        "investigation_date": "2023-09-06T23:27:15.645Z",
+        "created_at": "2023-09-07T01:59:49.836Z",
+        "updated_at": "2023-09-06T17:29:28.890Z",
+        "undefined": "6dcfe49f-7f53-4b9f-8ca5-86c1cac2bb99",
+        "assigned_allegation_id": "4fd74ed9-6a59-4119-8821-81b2bf2145fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "163232cf-ae32-49e0-ae3a-1e6bde424141",
+        "investigation_status": "Pending further evidence",
+        "investigation_result": "Misconduct not proven",
+        "investigation_date": "2023-09-07T08:32:39.988Z",
+        "created_at": "2023-09-06T22:15:45.507Z",
+        "updated_at": "2023-09-06T17:43:19.767Z",
+        "undefined": "4fd74ed9-6a59-4119-8821-81b2bf2145fa",
+        "assigned_allegation_id": "1c5b8027-5d0d-42ad-a57c-97e577873785",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96db5974-335a-4c3b-b29d-211f6d624927",
+        "investigation_status": "Under review",
+        "investigation_result": "Inconclusive findings",
+        "investigation_date": "2023-09-07T13:12:38.913Z",
+        "created_at": "2023-09-07T01:48:22.161Z",
+        "updated_at": "2023-09-06T17:26:34.896Z",
+        "undefined": "1c5b8027-5d0d-42ad-a57c-97e577873785",
+        "assigned_allegation_id": "5c0352b3-4be9-4bc6-942f-a2269e7e7c23",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "77341fdb-50a3-48fd-9122-d36056009d3a",
+        "email": "Duncan60@hotmail.com",
+        "firstName": "Darwin",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40781648",
+        "tenantId": null
+      },
+      {
+        "reference": "7749022b-9f0d-4e52-8455-4d241f0b0682",
+        "email": "Anna73@gmail.com",
+        "firstName": "Yvonne",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76997380",
+        "tenantId": null
+      },
+      {
+        "reference": "26bd5069-c3e1-4114-bd40-a9d891fdf615",
+        "email": "Arnoldo.Connelly@yahoo.com",
+        "firstName": "Marlin",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84244927",
+        "tenantId": null
+      },
+      {
+        "reference": "9fa65770-1941-4f33-b9df-5958d346a29d",
+        "email": "Jazmin.Stroman90@hotmail.com",
+        "firstName": "Makenna",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65464820",
+        "tenantId": null
+      },
+      {
+        "reference": "0510b65f-05a0-44c0-98ed-808d8db6d10f",
+        "email": "Ona_Yost90@hotmail.com",
+        "firstName": "Brett",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/679.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "allegation": [
+      {
+        "id": "7eee0052-6f22-4726-801e-2231ee078cbc",
+        "description": "Misconduct by an employee",
+        "status": "Pending",
+        "created_at": "2023-09-07T02:41:36.504Z",
+        "updated_at": "2023-09-07T06:09:11.627Z"
+      },
+      {
+        "id": "e1dfe888-98e5-47cd-883b-1ddfa4380f9a",
+        "description": "Fraudulent activities in financial transactions",
+        "status": "Under Investigation",
+        "created_at": "2023-09-06T20:11:12.716Z",
+        "updated_at": "2023-09-06T22:05:26.610Z"
+      },
+      {
+        "id": "0de8ddd1-d820-4dfa-b117-daf6867f7f87",
+        "description": "Discrimination based on race",
+        "status": "Resolved",
+        "created_at": "2023-09-07T12:08:05.835Z",
+        "updated_at": "2023-09-07T08:14:19.802Z"
+      },
+      {
+        "id": "51e4c6f8-ce42-4f1b-9ff3-cef5b298b929",
+        "description": "Harassment in the workplace",
+        "status": "Dismissed",
+        "created_at": "2023-09-07T08:11:45.027Z",
+        "updated_at": "2023-09-06T22:59:02.615Z"
+      },
+      {
+        "id": "2075cfe0-b81f-4d92-a9e1-384c2786410e",
+        "description": "Violation of company policies",
+        "status": "In Progress",
+        "created_at": "2023-09-07T07:08:15.665Z",
+        "updated_at": "2023-09-07T02:20:58.339Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "31d4fd5c-553c-4b83-a88d-0c657cdc933c",
+        "incident_date": "2023-09-07T12:43:23.267Z",
+        "incident_description": "Assaulted by a co-worker",
+        "incident_location": "Office premises",
+        "created_at": "2023-09-06T19:23:17.908Z",
+        "updated_at": "2023-09-06T18:32:57.839Z",
+        "undefined": "2075cfe0-b81f-4d92-a9e1-384c2786410e",
+        "allegation_id": "0de8ddd1-d820-4dfa-b117-daf6867f7f87",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20341bd4-da59-4031-94a5-2ee0df3cee33",
+        "incident_date": "2023-09-07T09:01:51.448Z",
+        "incident_description": "Witnessed a robbery",
+        "incident_location": "Public park",
+        "created_at": "2023-09-06T16:46:24.060Z",
+        "updated_at": "2023-09-06T22:21:49.240Z",
+        "undefined": "7eee0052-6f22-4726-801e-2231ee078cbc",
+        "allegation_id": "7eee0052-6f22-4726-801e-2231ee078cbc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e81aa9c6-0315-4cc6-9350-cda6c0954d09",
+        "incident_date": "2023-09-06T16:49:34.909Z",
+        "incident_description": "Involved in a car accident",
+        "incident_location": "Highway",
+        "created_at": "2023-09-07T11:30:49.634Z",
+        "updated_at": "2023-09-06T16:04:42.477Z",
+        "undefined": "e1dfe888-98e5-47cd-883b-1ddfa4380f9a",
+        "allegation_id": "2075cfe0-b81f-4d92-a9e1-384c2786410e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72f8143c-d2c5-4477-b379-f3ee880609c3",
+        "incident_date": "2023-09-07T14:02:40.808Z",
+        "incident_description": "Experienced medical malpractice",
+        "incident_location": "Hospital",
+        "created_at": "2023-09-06T22:48:07.885Z",
+        "updated_at": "2023-09-07T06:20:08.443Z",
+        "undefined": "2075cfe0-b81f-4d92-a9e1-384c2786410e",
+        "allegation_id": "7eee0052-6f22-4726-801e-2231ee078cbc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34ef88b2-a401-4ba5-883f-2f0e183475db",
+        "incident_date": "2023-09-07T06:42:53.972Z",
+        "incident_description": "Subjected to cyberbullying",
+        "incident_location": "Online platform",
+        "created_at": "2023-09-07T02:11:11.591Z",
+        "updated_at": "2023-09-07T08:45:06.243Z",
+        "undefined": "0de8ddd1-d820-4dfa-b117-daf6867f7f87",
+        "allegation_id": "7eee0052-6f22-4726-801e-2231ee078cbc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "ae26d825-87ad-465f-97b8-689550444029",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Termination from employment",
+        "incident_remarks": "Repeat offender",
+        "created_at": "2023-09-07T01:32:02.573Z",
+        "updated_at": "2023-09-06T23:03:37.293Z",
+        "undefined": "e1dfe888-98e5-47cd-883b-1ddfa4380f9a",
+        "allegation_id": "7eee0052-6f22-4726-801e-2231ee078cbc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62aed7bc-aebb-487e-82fc-50a478ce238e",
+        "incident_role": "Customer",
+        "incident_consequence": "Legal action taken",
+        "incident_remarks": "First-time offender",
+        "created_at": "2023-09-06T23:11:38.033Z",
+        "updated_at": "2023-09-07T02:56:58.096Z",
+        "undefined": "51e4c6f8-ce42-4f1b-9ff3-cef5b298b929",
+        "allegation_id": "51e4c6f8-ce42-4f1b-9ff3-cef5b298b929",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc079c4e-b032-42db-92dc-cef1b5b7e1b1",
+        "incident_role": "Driver",
+        "incident_consequence": "License suspension",
+        "incident_remarks": "Cooperated with the investigation",
+        "created_at": "2023-09-07T08:24:52.569Z",
+        "updated_at": "2023-09-07T13:15:20.541Z",
+        "undefined": "51e4c6f8-ce42-4f1b-9ff3-cef5b298b929",
+        "allegation_id": "e1dfe888-98e5-47cd-883b-1ddfa4380f9a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99a8f98c-8828-476f-bf41-5e5b6c285d30",
+        "incident_role": "Doctor",
+        "incident_consequence": "Warning issued",
+        "incident_remarks": "Denied allegations",
+        "created_at": "2023-09-07T07:24:37.845Z",
+        "updated_at": "2023-09-06T19:24:12.099Z",
+        "undefined": "7eee0052-6f22-4726-801e-2231ee078cbc",
+        "allegation_id": "0de8ddd1-d820-4dfa-b117-daf6867f7f87",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "618bc757-e91a-45ca-8c9c-14a68aa83c22",
+        "incident_role": "Online user",
+        "incident_consequence": "Account suspension",
+        "incident_remarks": "Apologized for the incident",
+        "created_at": "2023-09-07T04:52:49.882Z",
+        "updated_at": "2023-09-07T08:23:19.455Z",
+        "undefined": "2075cfe0-b81f-4d92-a9e1-384c2786410e",
+        "allegation_id": "e1dfe888-98e5-47cd-883b-1ddfa4380f9a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "cdef380d-e051-4060-b1a9-54f9b5d601fd",
+        "investigation_status": "Open",
+        "investigation_result": "Evidence found supporting the allegations",
+        "investigation_date": "2023-09-07T00:51:01.300Z",
+        "created_at": "2023-09-07T15:11:00.746Z",
+        "updated_at": "2023-09-06T18:54:02.898Z",
+        "undefined": "0de8ddd1-d820-4dfa-b117-daf6867f7f87",
+        "assigned_allegation_id": "e1dfe888-98e5-47cd-883b-1ddfa4380f9a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "376733b9-3662-4a19-b1e1-e7c00aec709f",
+        "investigation_status": "Closed",
+        "investigation_result": "No evidence found to support the allegations",
+        "investigation_date": "2023-09-07T05:41:18.147Z",
+        "created_at": "2023-09-07T02:27:46.430Z",
+        "updated_at": "2023-09-07T11:06:09.321Z",
+        "undefined": "e1dfe888-98e5-47cd-883b-1ddfa4380f9a",
+        "assigned_allegation_id": "51e4c6f8-ce42-4f1b-9ff3-cef5b298b929",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff0b0caa-bbab-4133-81ba-f9e3b8ceca7e",
+        "investigation_status": "Ongoing",
+        "investigation_result": "Inconclusive findings",
+        "investigation_date": "2023-09-07T03:26:11.741Z",
+        "created_at": "2023-09-07T08:05:43.568Z",
+        "updated_at": "2023-09-07T13:14:24.637Z",
+        "undefined": "0de8ddd1-d820-4dfa-b117-daf6867f7f87",
+        "assigned_allegation_id": "2075cfe0-b81f-4d92-a9e1-384c2786410e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbb0b295-bbe9-4b91-b970-e914acade65c",
+        "investigation_status": "Pending",
+        "investigation_result": "Partially substantiated allegations",
+        "investigation_date": "2023-09-07T15:11:50.025Z",
+        "created_at": "2023-09-06T18:07:53.522Z",
+        "updated_at": "2023-09-06T20:49:55.478Z",
+        "undefined": "e1dfe888-98e5-47cd-883b-1ddfa4380f9a",
+        "assigned_allegation_id": "0de8ddd1-d820-4dfa-b117-daf6867f7f87",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b17db1a-87db-4cd5-9c95-23beaac7b96c",
+        "investigation_status": "Completed",
+        "investigation_result": "Recommendations for improvement provided",
+        "investigation_date": "2023-09-06T17:29:52.475Z",
+        "created_at": "2023-09-07T06:05:28.017Z",
+        "updated_at": "2023-09-07T15:26:44.521Z",
+        "undefined": "51e4c6f8-ce42-4f1b-9ff3-cef5b298b929",
+        "assigned_allegation_id": "51e4c6f8-ce42-4f1b-9ff3-cef5b298b929",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa8ea0c8-c61a-4b5f-8a40-635f20e314a9",
+        "email": "Anna.Lindgren@yahoo.com",
+        "firstName": "Finn",
+        "lastName": "Labadie-McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93257000",
+        "tenantId": null
+      },
+      {
+        "reference": "94bdee70-11ab-418e-a527-2d60564b388d",
+        "email": "Norval12@gmail.com",
+        "firstName": "Amiya",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43984067",
+        "tenantId": null
+      },
+      {
+        "reference": "49612f4c-da4d-42a3-9dae-da6611531faf",
+        "email": "Marjolaine_Carroll83@yahoo.com",
+        "firstName": "Macie",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1183.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e5650f32-b5a1-4c84-b2e5-7a90dd97d2a3",
+        "email": "Jovanny.Heller29@hotmail.com",
+        "firstName": "Luz",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86679510",
+        "tenantId": null
+      },
+      {
+        "reference": "ed7c27ea-ff83-40e0-8376-1116840fb4b9",
+        "email": "Era.Purdy@hotmail.com",
+        "firstName": "Jerod",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39821959",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "allegation": [
+      {
+        "id": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "description": "Misuse of funds",
+        "status": "Under investigation",
+        "created_at": "2023-09-06T17:32:37.625Z",
+        "updated_at": "2023-09-07T01:39:37.325Z"
+      },
+      {
+        "id": "e5431601-97b4-4d42-b861-c6d04dff7766",
+        "description": "Discrimination in hiring process",
+        "status": "Resolved",
+        "created_at": "2023-09-07T04:02:36.313Z",
+        "updated_at": "2023-09-07T07:47:57.409Z"
+      },
+      {
+        "id": "8027ca30-1450-4f04-b028-c4011e31ae25",
+        "description": "Harassment in the workplace",
+        "status": "Pending review",
+        "created_at": "2023-09-07T02:04:48.571Z",
+        "updated_at": "2023-09-06T16:28:34.648Z"
+      },
+      {
+        "id": "7b6755e5-b6fe-44e9-861b-b6cad1152f69",
+        "description": "Environmental pollution",
+        "status": "Closed",
+        "created_at": "2023-09-07T10:37:50.641Z",
+        "updated_at": "2023-09-07T06:25:25.323Z"
+      },
+      {
+        "id": "fecdbe19-4c06-4d32-83e1-289be132c793",
+        "description": "Medical malpractice",
+        "status": "In progress",
+        "created_at": "2023-09-07T05:54:25.153Z",
+        "updated_at": "2023-09-06T17:50:23.826Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "a7a97a21-101c-4943-9dc1-c287a163e2bc",
+        "incident_date": "2023-09-06T21:31:30.491Z",
+        "incident_description": "Physical assault during protest",
+        "incident_location": "City Park",
+        "created_at": "2023-09-07T04:00:22.766Z",
+        "updated_at": "2023-09-07T11:02:44.997Z",
+        "undefined": "e5431601-97b4-4d42-b861-c6d04dff7766",
+        "allegation_id": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f90c7f0-4b34-4485-89d6-47f98cbbfb8a",
+        "incident_date": "2023-09-06T22:49:50.095Z",
+        "incident_description": "Discrimination based on gender identity",
+        "incident_location": "Office premises",
+        "created_at": "2023-09-06T16:45:06.698Z",
+        "updated_at": "2023-09-06T16:59:01.155Z",
+        "undefined": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "allegation_id": "8027ca30-1450-4f04-b028-c4011e31ae25",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4a81557-4156-4176-b9bd-4924a922ab06",
+        "incident_date": "2023-09-07T06:21:08.215Z",
+        "incident_description": "Workplace bullying and intimidation",
+        "incident_location": "Residential area",
+        "created_at": "2023-09-07T12:43:56.558Z",
+        "updated_at": "2023-09-06T16:08:27.922Z",
+        "undefined": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "allegation_id": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a7dd6aa-8ba9-477c-9050-bfc1ebb1e766",
+        "incident_date": "2023-09-07T07:30:26.210Z",
+        "incident_description": "Illegal eviction from home",
+        "incident_location": "Industrial site",
+        "created_at": "2023-09-07T13:39:45.377Z",
+        "updated_at": "2023-09-07T14:16:03.379Z",
+        "undefined": "fecdbe19-4c06-4d32-83e1-289be132c793",
+        "allegation_id": "fecdbe19-4c06-4d32-83e1-289be132c793",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2975ad4-33cd-4af4-ba8a-d6f852691b63",
+        "incident_date": "2023-09-06T16:11:13.375Z",
+        "incident_description": "Negligence leading to injury",
+        "incident_location": "Hospital",
+        "created_at": "2023-09-07T07:11:23.262Z",
+        "updated_at": "2023-09-07T03:01:17.992Z",
+        "undefined": "e5431601-97b4-4d42-b861-c6d04dff7766",
+        "allegation_id": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "73509387-6cf9-4617-baae-ab4944fe7f90",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Termination of employment",
+        "incident_remarks": "Repeated incidents reported",
+        "created_at": "2023-09-06T16:30:00.063Z",
+        "updated_at": "2023-09-07T06:30:46.791Z",
+        "undefined": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "allegation_id": "e5431601-97b4-4d42-b861-c6d04dff7766",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0a2c218-4faf-4b80-83b5-aa6a4cc7bd28",
+        "incident_role": "Co-worker",
+        "incident_consequence": "Legal action taken",
+        "incident_remarks": "No remorse shown",
+        "created_at": "2023-09-07T09:55:47.538Z",
+        "updated_at": "2023-09-07T08:35:03.576Z",
+        "undefined": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "allegation_id": "8027ca30-1450-4f04-b028-c4011e31ae25",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "503b89ff-c62f-4775-b688-d7bd996a3ed4",
+        "incident_role": "Landlord",
+        "incident_consequence": "Financial penalty",
+        "incident_remarks": "Evidence tampering suspected",
+        "created_at": "2023-09-07T06:16:31.541Z",
+        "updated_at": "2023-09-06T21:10:57.675Z",
+        "undefined": "fecdbe19-4c06-4d32-83e1-289be132c793",
+        "allegation_id": "e5431601-97b4-4d42-b861-c6d04dff7766",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f188a592-6af6-4baf-bf87-6518279d9807",
+        "incident_role": "Employer",
+        "incident_consequence": "Loss of reputation",
+        "incident_remarks": "Previous complaints filed",
+        "created_at": "2023-09-06T16:10:05.485Z",
+        "updated_at": "2023-09-07T14:31:19.333Z",
+        "undefined": "8027ca30-1450-4f04-b028-c4011e31ae25",
+        "allegation_id": "7b6755e5-b6fe-44e9-861b-b6cad1152f69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65de3cc8-39d8-4945-a9bb-cdff9e82f06c",
+        "incident_role": "Doctor",
+        "incident_consequence": "License revocation",
+        "incident_remarks": "Witnesses present",
+        "created_at": "2023-09-06T22:46:03.517Z",
+        "updated_at": "2023-09-06T15:46:23.475Z",
+        "undefined": "8027ca30-1450-4f04-b028-c4011e31ae25",
+        "allegation_id": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "d1a4f339-f8ec-4993-81ff-81ab89caaaa1",
+        "investigation_status": "Open",
+        "investigation_result": "Evidence inconclusive",
+        "investigation_date": "2023-09-07T12:38:59.456Z",
+        "created_at": "2023-09-06T17:41:29.050Z",
+        "updated_at": "2023-09-07T02:18:45.714Z",
+        "undefined": "fecdbe19-4c06-4d32-83e1-289be132c793",
+        "assigned_allegation_id": "e5431601-97b4-4d42-b861-c6d04dff7766",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "945d0d04-ee47-486f-8c64-90eb3d6b6f4c",
+        "investigation_status": "Closed",
+        "investigation_result": "Wrongful accusations",
+        "investigation_date": "2023-09-06T21:54:30.026Z",
+        "created_at": "2023-09-07T09:33:35.616Z",
+        "updated_at": "2023-09-07T08:56:02.086Z",
+        "undefined": "e5431601-97b4-4d42-b861-c6d04dff7766",
+        "assigned_allegation_id": "7b6755e5-b6fe-44e9-861b-b6cad1152f69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b473c86c-b488-48b4-85dd-6b08d21c060e",
+        "investigation_status": "Ongoing",
+        "investigation_result": "Violation of policies found",
+        "investigation_date": "2023-09-07T00:07:25.857Z",
+        "created_at": "2023-09-07T01:53:24.605Z",
+        "updated_at": "2023-09-07T06:09:04.950Z",
+        "undefined": "e5431601-97b4-4d42-b861-c6d04dff7766",
+        "assigned_allegation_id": "e5431601-97b4-4d42-b861-c6d04dff7766",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1467af63-0e24-4aad-acdf-1a92f41f4fa0",
+        "investigation_status": "Pending",
+        "investigation_result": "Recommendations for improvement",
+        "investigation_date": "2023-09-07T03:46:01.478Z",
+        "created_at": "2023-09-06T23:21:28.698Z",
+        "updated_at": "2023-09-07T03:43:00.649Z",
+        "undefined": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "assigned_allegation_id": "7b6755e5-b6fe-44e9-861b-b6cad1152f69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17b7b684-ad51-4cb9-a8cc-544f1eabd1ba",
+        "investigation_status": "Completed",
+        "investigation_result": "No wrongdoing found",
+        "investigation_date": "2023-09-07T07:09:18.734Z",
+        "created_at": "2023-09-06T23:11:14.279Z",
+        "updated_at": "2023-09-06T22:17:17.731Z",
+        "undefined": "68f6fb06-4acf-4d63-8501-375618e5667d",
+        "assigned_allegation_id": "7b6755e5-b6fe-44e9-861b-b6cad1152f69",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "40cb6197-8c07-4e1f-bf8d-7f673c65c2cb",
+        "email": "Vincenza_Bergstrom5@gmail.com",
+        "firstName": "Juliana",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64242480",
+        "tenantId": null
+      },
+      {
+        "reference": "c530a14e-0cd8-41f6-863c-7d281b9a8de3",
+        "email": "Stephany_Hudson25@yahoo.com",
+        "firstName": "Luciano",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43792892",
+        "tenantId": null
+      },
+      {
+        "reference": "22fbaa86-cf69-4507-8f5c-a81dc3e66d6b",
+        "email": "Michale.Schneider5@hotmail.com",
+        "firstName": "Malachi",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70827787",
+        "tenantId": null
+      },
+      {
+        "reference": "e3690fe1-b2a4-4ae9-a769-ba100c4ffdc5",
+        "email": "Arvel_Kuhlman1@gmail.com",
+        "firstName": "Keely",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/503.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ef49eb90-d6f5-497a-8f59-8f66efd3d501",
+        "email": "Tad.Ruecker@hotmail.com",
+        "firstName": "Anabel",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/346.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "allegation": [
+      {
+        "id": "39eaa56d-151e-4c1c-985d-e6f690b7d36c",
+        "description": "Misuse of company funds",
+        "status": "Pending",
+        "created_at": "2023-09-07T15:07:35.611Z",
+        "updated_at": "2023-09-07T01:27:12.850Z"
+      },
+      {
+        "id": "bf2392bb-0b89-4cd2-a061-748184fae1d4",
+        "description": "Discrimination in the workplace",
+        "status": "Investigating",
+        "created_at": "2023-09-07T09:26:03.504Z",
+        "updated_at": "2023-09-06T15:35:17.204Z"
+      },
+      {
+        "id": "c927cf26-3cb1-4702-b092-792f35620ac9",
+        "description": "Harassment by a supervisor",
+        "status": "Closed",
+        "created_at": "2023-09-07T08:14:35.060Z",
+        "updated_at": "2023-09-06T18:15:59.349Z"
+      },
+      {
+        "id": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "description": "Breach of contract",
+        "status": "Resolved",
+        "created_at": "2023-09-07T11:42:37.784Z",
+        "updated_at": "2023-09-07T06:34:51.183Z"
+      },
+      {
+        "id": "687908a3-2153-42cc-a303-4f2fcb67dd4b",
+        "description": "Unfair treatment of employees",
+        "status": "Under review",
+        "created_at": "2023-09-07T12:12:10.133Z",
+        "updated_at": "2023-09-07T14:17:17.684Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "bbdda0be-c9a3-4a07-a417-a0bf4a72784f",
+        "incident_date": "2023-09-07T10:20:45.523Z",
+        "incident_description": "Physical assault by a coworker",
+        "incident_location": "Office building",
+        "created_at": "2023-09-07T08:15:08.083Z",
+        "updated_at": "2023-09-07T10:06:22.697Z",
+        "undefined": "bf2392bb-0b89-4cd2-a061-748184fae1d4",
+        "allegation_id": "bf2392bb-0b89-4cd2-a061-748184fae1d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05cda3ec-cd50-4024-9c1e-c5486c7ad1f1",
+        "incident_date": "2023-09-07T08:39:26.878Z",
+        "incident_description": "Discriminatory remarks by a colleague",
+        "incident_location": "Conference room",
+        "created_at": "2023-09-07T05:27:54.876Z",
+        "updated_at": "2023-09-06T17:32:53.492Z",
+        "undefined": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "allegation_id": "687908a3-2153-42cc-a303-4f2fcb67dd4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb0bb58f-0828-4f7b-a467-cfe422d3949c",
+        "incident_date": "2023-09-07T10:33:46.791Z",
+        "incident_description": "Workplace bullying by a supervisor",
+        "incident_location": "Cafeteria",
+        "created_at": "2023-09-07T12:23:39.644Z",
+        "updated_at": "2023-09-07T00:57:27.430Z",
+        "undefined": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "allegation_id": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2aa4563-29d7-4788-bd95-2a27de4f7b4b",
+        "incident_date": "2023-09-06T18:05:01.644Z",
+        "incident_description": "Sexual harassment by a team member",
+        "incident_location": "Parking lot",
+        "created_at": "2023-09-07T14:43:37.426Z",
+        "updated_at": "2023-09-07T14:05:21.993Z",
+        "undefined": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "allegation_id": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b5fc29b-0b7e-452b-8217-b1631ead83c3",
+        "incident_date": "2023-09-06T18:26:05.793Z",
+        "incident_description": "Verbal abuse by a manager",
+        "incident_location": "Employee lounge",
+        "created_at": "2023-09-06T16:04:27.296Z",
+        "updated_at": "2023-09-07T07:42:15.714Z",
+        "undefined": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "allegation_id": "c927cf26-3cb1-4702-b092-792f35620ac9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "58004410-43e0-417b-b09c-49bd679aa581",
+        "incident_role": "Manager",
+        "incident_consequence": "Verbal warning",
+        "incident_remarks": "No previous disciplinary record",
+        "created_at": "2023-09-06T19:24:07.918Z",
+        "updated_at": "2023-09-07T12:52:03.829Z",
+        "undefined": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "allegation_id": "bf2392bb-0b89-4cd2-a061-748184fae1d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd3826f7-13ea-4ee9-987b-58b480f21308",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Written warning",
+        "incident_remarks": "Repeat offender",
+        "created_at": "2023-09-07T14:32:39.657Z",
+        "updated_at": "2023-09-06T23:06:22.357Z",
+        "undefined": "c927cf26-3cb1-4702-b092-792f35620ac9",
+        "allegation_id": "687908a3-2153-42cc-a303-4f2fcb67dd4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5d7f150-5712-4d3b-b256-f7562f7710df",
+        "incident_role": "Colleague",
+        "incident_consequence": "Suspension",
+        "incident_remarks": "Witnesses present",
+        "created_at": "2023-09-07T10:43:45.718Z",
+        "updated_at": "2023-09-07T04:45:32.080Z",
+        "undefined": "bf2392bb-0b89-4cd2-a061-748184fae1d4",
+        "allegation_id": "c927cf26-3cb1-4702-b092-792f35620ac9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c930dcf-8e73-40cc-8725-e8b5beec94e8",
+        "incident_role": "Team leader",
+        "incident_consequence": "Termination",
+        "incident_remarks": "Conflicting statements",
+        "created_at": "2023-09-06T17:38:10.015Z",
+        "updated_at": "2023-09-07T14:48:23.373Z",
+        "undefined": "39eaa56d-151e-4c1c-985d-e6f690b7d36c",
+        "allegation_id": "687908a3-2153-42cc-a303-4f2fcb67dd4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9eaecf5c-457c-4ba4-bc01-6e71253c312f",
+        "incident_role": "Executive",
+        "incident_consequence": "Legal action",
+        "incident_remarks": "Evidence of misconduct",
+        "created_at": "2023-09-07T03:10:29.244Z",
+        "updated_at": "2023-09-06T23:52:34.921Z",
+        "undefined": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "allegation_id": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "c9811271-d5ca-4587-809f-05631ceb5be5",
+        "investigation_status": "Ongoing",
+        "investigation_result": "Substantiated",
+        "investigation_date": "2023-09-06T19:24:20.642Z",
+        "created_at": "2023-09-07T04:49:10.527Z",
+        "updated_at": "2023-09-07T10:58:10.530Z",
+        "undefined": "c927cf26-3cb1-4702-b092-792f35620ac9",
+        "assigned_allegation_id": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "903a1273-5d55-420b-81d7-432afd1759ce",
+        "investigation_status": "Pending",
+        "investigation_result": "Unsubstantiated",
+        "investigation_date": "2023-09-07T01:31:18.160Z",
+        "created_at": "2023-09-07T03:27:51.228Z",
+        "updated_at": "2023-09-06T22:42:35.347Z",
+        "undefined": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "assigned_allegation_id": "39eaa56d-151e-4c1c-985d-e6f690b7d36c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a2999de-1948-4f89-aea8-1c87728ad9c3",
+        "investigation_status": "Completed",
+        "investigation_result": "Inconclusive",
+        "investigation_date": "2023-09-07T05:21:33.588Z",
+        "created_at": "2023-09-07T00:18:14.337Z",
+        "updated_at": "2023-09-07T14:52:43.912Z",
+        "undefined": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "assigned_allegation_id": "a9ecf11d-ced4-4f05-a7b7-c736fbb99617",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4266001-41fd-491b-802d-744e56461a4d",
+        "investigation_status": "In progress",
+        "investigation_result": "Partially substantiated",
+        "investigation_date": "2023-09-07T10:08:46.793Z",
+        "created_at": "2023-09-07T07:24:11.895Z",
+        "updated_at": "2023-09-06T18:39:05.647Z",
+        "undefined": "bf2392bb-0b89-4cd2-a061-748184fae1d4",
+        "assigned_allegation_id": "687908a3-2153-42cc-a303-4f2fcb67dd4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "333c7fd1-c49e-472d-bc19-116a0633afe7",
+        "investigation_status": "On hold",
+        "investigation_result": "Pending review",
+        "investigation_date": "2023-09-07T07:56:40.328Z",
+        "created_at": "2023-09-07T05:09:04.832Z",
+        "updated_at": "2023-09-07T10:56:36.976Z",
+        "undefined": "bf2392bb-0b89-4cd2-a061-748184fae1d4",
+        "assigned_allegation_id": "c927cf26-3cb1-4702-b092-792f35620ac9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "243cef6c-54ac-45a5-ade7-0d207f4053dc",
+        "email": "Estrella_Upton25@gmail.com",
+        "firstName": "Adriana",
+        "lastName": "Muller-Hettinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/302.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e0541cdf-7fdd-4c77-8bbe-b6fa8897da93",
+        "email": "Arlie83@gmail.com",
+        "firstName": "Humberto",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/307.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac7c7a73-d354-4fee-a96a-0a66ca88bba0",
+        "email": "Kennedi36@hotmail.com",
+        "firstName": "Alphonso",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/995.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "67372412-4654-4648-a628-0ed10c002490",
+        "email": "Adele.Stokes77@yahoo.com",
+        "firstName": "Miguel",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1145.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "942945d2-6d4f-4e6a-9f9e-d33805c543b6",
+        "email": "Jaeden67@gmail.com",
+        "firstName": "Jaunita",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/654.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "allegation": [
+      {
+        "id": "f91c6222-084f-4d6d-a0a3-241cda5a1d25",
+        "description": "Misuse of funds",
+        "status": "Under investigation",
+        "created_at": "2023-09-06T20:24:04.089Z",
+        "updated_at": "2023-09-06T20:59:20.698Z"
+      },
+      {
+        "id": "f1e851b9-5319-48a4-85ae-4addece6f44a",
+        "description": "Discrimination in the workplace",
+        "status": "Resolved",
+        "created_at": "2023-09-07T15:25:37.546Z",
+        "updated_at": "2023-09-07T09:03:55.004Z"
+      },
+      {
+        "id": "ec035996-2974-4eba-aa5c-41c36c74cac8",
+        "description": "Harassment and bullying",
+        "status": "Pending review",
+        "created_at": "2023-09-07T04:11:08.062Z",
+        "updated_at": "2023-09-07T13:33:39.616Z"
+      },
+      {
+        "id": "7a9a8271-a10b-4aeb-a0fc-897037b7a60e",
+        "description": "Violation of company policies",
+        "status": "Closed",
+        "created_at": "2023-09-07T10:37:07.854Z",
+        "updated_at": "2023-09-07T11:55:05.395Z"
+      },
+      {
+        "id": "0c7c1b4d-040a-4afa-9263-13142b89a7b3",
+        "description": "Unethical behavior",
+        "status": "In progress",
+        "created_at": "2023-09-07T02:06:00.745Z",
+        "updated_at": "2023-09-07T13:33:56.744Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "89d24986-ac73-4c5d-8cf5-a4f1c3fd315e",
+        "incident_date": "2023-09-07T04:44:16.988Z",
+        "incident_description": "Physical assault during work hours",
+        "incident_location": "Office building",
+        "created_at": "2023-09-07T01:15:02.700Z",
+        "updated_at": "2023-09-07T01:29:41.513Z",
+        "undefined": "f1e851b9-5319-48a4-85ae-4addece6f44a",
+        "allegation_id": "ec035996-2974-4eba-aa5c-41c36c74cac8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e44387e9-6750-49d0-a2a7-6e3b8c98b6e8",
+        "incident_date": "2023-09-07T09:28:09.025Z",
+        "incident_description": "Verbal abuse and intimidation",
+        "incident_location": "Factory premises",
+        "created_at": "2023-09-07T08:01:43.978Z",
+        "updated_at": "2023-09-06T18:44:16.547Z",
+        "undefined": "f91c6222-084f-4d6d-a0a3-241cda5a1d25",
+        "allegation_id": "7a9a8271-a10b-4aeb-a0fc-897037b7a60e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec0306c5-2bf9-48a5-bd12-5710d738f862",
+        "incident_date": "2023-09-07T09:11:31.541Z",
+        "incident_description": "Workplace discrimination based on gender",
+        "incident_location": "Retail store",
+        "created_at": "2023-09-07T00:13:38.786Z",
+        "updated_at": "2023-09-06T22:51:21.565Z",
+        "undefined": "ec035996-2974-4eba-aa5c-41c36c74cac8",
+        "allegation_id": "0c7c1b4d-040a-4afa-9263-13142b89a7b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97032867-a211-4938-82e2-932f87a8a422",
+        "incident_date": "2023-09-07T03:39:04.760Z",
+        "incident_description": "Sexual harassment",
+        "incident_location": "Construction site",
+        "created_at": "2023-09-07T14:09:46.553Z",
+        "updated_at": "2023-09-06T17:49:22.828Z",
+        "undefined": "f91c6222-084f-4d6d-a0a3-241cda5a1d25",
+        "allegation_id": "7a9a8271-a10b-4aeb-a0fc-897037b7a60e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "035757be-96ab-44cc-82f8-e30b55f26065",
+        "incident_date": "2023-09-07T03:15:42.113Z",
+        "incident_description": "Violation of privacy rights",
+        "incident_location": "Hospital",
+        "created_at": "2023-09-07T15:15:06.229Z",
+        "updated_at": "2023-09-07T04:18:27.669Z",
+        "undefined": "7a9a8271-a10b-4aeb-a0fc-897037b7a60e",
+        "allegation_id": "f91c6222-084f-4d6d-a0a3-241cda5a1d25",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "78bf2811-5d26-4456-96de-521e7522cc33",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Termination of employment",
+        "incident_remarks": "Repeat offender",
+        "created_at": "2023-09-07T09:46:56.682Z",
+        "updated_at": "2023-09-07T02:35:45.854Z",
+        "undefined": "ec035996-2974-4eba-aa5c-41c36c74cac8",
+        "allegation_id": "f1e851b9-5319-48a4-85ae-4addece6f44a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cf4e5d1-db04-4f6d-8e05-17b582609e4d",
+        "incident_role": "Co-worker",
+        "incident_consequence": "Written warning",
+        "incident_remarks": "First-time incident",
+        "created_at": "2023-09-07T07:34:25.440Z",
+        "updated_at": "2023-09-06T18:41:39.592Z",
+        "undefined": "f91c6222-084f-4d6d-a0a3-241cda5a1d25",
+        "allegation_id": "f1e851b9-5319-48a4-85ae-4addece6f44a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6098a26-6e95-4c49-ba5d-383900a5edab",
+        "incident_role": "Manager",
+        "incident_consequence": "Sensitivity training",
+        "incident_remarks": "Witnessed by multiple employees",
+        "created_at": "2023-09-07T13:06:54.488Z",
+        "updated_at": "2023-09-07T09:56:52.216Z",
+        "undefined": "0c7c1b4d-040a-4afa-9263-13142b89a7b3",
+        "allegation_id": "f1e851b9-5319-48a4-85ae-4addece6f44a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a5c1816-33bc-4208-af83-228926f8c574",
+        "incident_role": "Client",
+        "incident_consequence": "Loss of business contract",
+        "incident_remarks": "Confidentiality breach",
+        "created_at": "2023-09-07T07:47:21.793Z",
+        "updated_at": "2023-09-06T18:01:34.891Z",
+        "undefined": "f1e851b9-5319-48a4-85ae-4addece6f44a",
+        "allegation_id": "ec035996-2974-4eba-aa5c-41c36c74cac8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93413b84-727d-48ab-9868-0b452aec0699",
+        "incident_role": "Business partner",
+        "incident_consequence": "Legal action",
+        "incident_remarks": "Ongoing investigation",
+        "created_at": "2023-09-06T17:56:15.326Z",
+        "updated_at": "2023-09-06T23:49:29.863Z",
+        "undefined": "7a9a8271-a10b-4aeb-a0fc-897037b7a60e",
+        "allegation_id": "0c7c1b4d-040a-4afa-9263-13142b89a7b3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "0195e96c-fef5-4bc7-8717-ba7561539e54",
+        "investigation_status": "Pending",
+        "investigation_result": "Substantiated",
+        "investigation_date": "2023-09-07T08:12:58.802Z",
+        "created_at": "2023-09-06T15:54:46.352Z",
+        "updated_at": "2023-09-07T10:05:24.677Z",
+        "undefined": "7a9a8271-a10b-4aeb-a0fc-897037b7a60e",
+        "assigned_allegation_id": "7a9a8271-a10b-4aeb-a0fc-897037b7a60e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd9a0b51-5406-42ee-99f9-c7accb906d30",
+        "investigation_status": "Ongoing",
+        "investigation_result": "Unsubstantiated",
+        "investigation_date": "2023-09-07T15:29:15.186Z",
+        "created_at": "2023-09-07T04:35:17.572Z",
+        "updated_at": "2023-09-06T15:40:04.828Z",
+        "undefined": "f1e851b9-5319-48a4-85ae-4addece6f44a",
+        "assigned_allegation_id": "0c7c1b4d-040a-4afa-9263-13142b89a7b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b41d45b0-ddf3-4332-a2a9-530841ee3403",
+        "investigation_status": "Completed",
+        "investigation_result": "Partially substantiated",
+        "investigation_date": "2023-09-07T09:36:34.933Z",
+        "created_at": "2023-09-06T23:37:39.485Z",
+        "updated_at": "2023-09-07T03:01:52.363Z",
+        "undefined": "7a9a8271-a10b-4aeb-a0fc-897037b7a60e",
+        "assigned_allegation_id": "ec035996-2974-4eba-aa5c-41c36c74cac8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56953271-d2c3-48c9-a2c8-f88bc83aa882",
+        "investigation_status": "Closed",
+        "investigation_result": "Inconclusive",
+        "investigation_date": "2023-09-06T19:13:43.016Z",
+        "created_at": "2023-09-06T18:34:26.691Z",
+        "updated_at": "2023-09-07T02:00:10.599Z",
+        "undefined": "f1e851b9-5319-48a4-85ae-4addece6f44a",
+        "assigned_allegation_id": "f91c6222-084f-4d6d-a0a3-241cda5a1d25",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7acea1f6-689b-4513-af4a-7a2efaa2a668",
+        "investigation_status": "Inconclusive",
+        "investigation_result": "Pending review",
+        "investigation_date": "2023-09-06T18:53:34.792Z",
+        "created_at": "2023-09-07T11:26:33.164Z",
+        "updated_at": "2023-09-07T02:53:11.633Z",
+        "undefined": "f1e851b9-5319-48a4-85ae-4addece6f44a",
+        "assigned_allegation_id": "7a9a8271-a10b-4aeb-a0fc-897037b7a60e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d5bea71a-735a-4d3c-be99-a48117c150ae",
+        "email": "Tommie70@yahoo.com",
+        "firstName": "Shania",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81398568",
+        "tenantId": null
+      },
+      {
+        "reference": "68bf863c-fa92-4693-99bc-6822c3444a40",
+        "email": "Toney_Hagenes-Buckridge@gmail.com",
+        "firstName": "Marjory",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/875.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f30913e5-2781-45f8-9c8a-c81c5245ad71",
+        "email": "Jamaal_Langworth@yahoo.com",
+        "firstName": "Reyes",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dd962deb-005b-4f90-b0bb-03c5dafe4df2",
+        "email": "Felicity.Davis@yahoo.com",
+        "firstName": "Brice",
+        "lastName": "Kassulke-Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24588716",
+        "tenantId": null
+      },
+      {
+        "reference": "cffe6837-42bf-4b1d-96be-e5155b097014",
+        "email": "Kitty_Collier@gmail.com",
+        "firstName": "Francisco",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15931652",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "allegation": [
+      {
+        "id": "ade56354-1c13-4d53-bfc7-56a13bcb1648",
+        "description": "Fraudulent financial activities",
+        "status": "Under investigation",
+        "created_at": "2023-09-07T07:45:48.289Z",
+        "updated_at": "2023-09-07T05:39:01.035Z"
+      },
+      {
+        "id": "6e4209b9-e850-4531-8aa1-aefd29a6e90d",
+        "description": "Discrimination based on gender",
+        "status": "Resolved",
+        "created_at": "2023-09-06T18:19:12.873Z",
+        "updated_at": "2023-09-07T12:52:59.622Z"
+      },
+      {
+        "id": "ff0527b5-be30-430a-b4df-cf394d74c741",
+        "description": "Harassment in the workplace",
+        "status": "Pending review",
+        "created_at": "2023-09-06T20:59:58.647Z",
+        "updated_at": "2023-09-07T01:26:18.496Z"
+      },
+      {
+        "id": "3c2f3800-34c4-4e23-a234-c4b818c0f4b2",
+        "description": "Misuse of company resources",
+        "status": "Dismissed",
+        "created_at": "2023-09-07T14:29:15.222Z",
+        "updated_at": "2023-09-06T18:54:34.839Z"
+      },
+      {
+        "id": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "description": "Breach of contract",
+        "status": "In progress",
+        "created_at": "2023-09-07T07:52:43.567Z",
+        "updated_at": "2023-09-06T19:02:18.489Z"
+      }
+    ],
+    "victim": [
+      {
+        "id": "f5cd7c23-b07f-4560-b987-3b042f9fb279",
+        "incident_date": "2023-09-07T09:56:03.872Z",
+        "incident_description": "Physical assault during a protest",
+        "incident_location": "City park",
+        "created_at": "2023-09-07T10:31:09.109Z",
+        "updated_at": "2023-09-06T19:02:22.335Z",
+        "undefined": "3c2f3800-34c4-4e23-a234-c4b818c0f4b2",
+        "allegation_id": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b30ebe68-b77b-409b-982f-682e4c1887cc",
+        "incident_date": "2023-09-07T00:09:15.897Z",
+        "incident_description": "Cyberbullying on social media",
+        "incident_location": "Online platform",
+        "created_at": "2023-09-07T03:42:55.331Z",
+        "updated_at": "2023-09-06T23:42:47.727Z",
+        "undefined": "3c2f3800-34c4-4e23-a234-c4b818c0f4b2",
+        "allegation_id": "ade56354-1c13-4d53-bfc7-56a13bcb1648",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c85bdc03-356b-4cb7-92f0-5e2a1a5f929c",
+        "incident_date": "2023-09-06T18:43:11.231Z",
+        "incident_description": "Discrimination in a public place",
+        "incident_location": "Shopping mall",
+        "created_at": "2023-09-07T01:11:26.702Z",
+        "updated_at": "2023-09-06T23:39:46.363Z",
+        "undefined": "ade56354-1c13-4d53-bfc7-56a13bcb1648",
+        "allegation_id": "ade56354-1c13-4d53-bfc7-56a13bcb1648",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c72218c5-b814-4a3f-b446-50940dacb0de",
+        "incident_date": "2023-09-06T18:59:51.154Z",
+        "incident_description": "Sexual harassment in the workplace",
+        "incident_location": "Office building",
+        "created_at": "2023-09-07T11:20:15.231Z",
+        "updated_at": "2023-09-07T02:16:33.484Z",
+        "undefined": "ff0527b5-be30-430a-b4df-cf394d74c741",
+        "allegation_id": "3c2f3800-34c4-4e23-a234-c4b818c0f4b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "398f8301-e1e0-4be6-998a-1d73601aa177",
+        "incident_date": "2023-09-07T04:53:08.680Z",
+        "incident_description": "Verbal abuse in a school",
+        "incident_location": "High school",
+        "created_at": "2023-09-06T23:19:32.858Z",
+        "updated_at": "2023-09-07T15:11:01.216Z",
+        "undefined": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "allegation_id": "6e4209b9-e850-4531-8aa1-aefd29a6e90d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "perpetrator": [
+      {
+        "id": "12baf025-766b-4c0f-ad8b-2c982fa52458",
+        "incident_role": "Supervisor",
+        "incident_consequence": "Termination of employment",
+        "incident_remarks": "No previous incidents reported",
+        "created_at": "2023-09-06T15:40:05.921Z",
+        "updated_at": "2023-09-06T21:07:01.710Z",
+        "undefined": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "allegation_id": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53707d2b-1434-4be0-98e5-8dc71fa17d8c",
+        "incident_role": "Co-worker",
+        "incident_consequence": "Legal action",
+        "incident_remarks": "Repeat offender",
+        "created_at": "2023-09-07T14:02:10.773Z",
+        "updated_at": "2023-09-07T08:38:20.770Z",
+        "undefined": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "allegation_id": "ff0527b5-be30-430a-b4df-cf394d74c741",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57b42e3e-22e8-4129-bc90-bc0f5a5aba6c",
+        "incident_role": "Customer",
+        "incident_consequence": "Written warning",
+        "incident_remarks": "Apologized and expressed remorse",
+        "created_at": "2023-09-06T20:47:03.058Z",
+        "updated_at": "2023-09-06T20:03:49.648Z",
+        "undefined": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "allegation_id": "ade56354-1c13-4d53-bfc7-56a13bcb1648",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f04fc0d-a1ca-42be-8354-a96ff9210348",
+        "incident_role": "Teacher",
+        "incident_consequence": "Sensitivity training",
+        "incident_remarks": "Denied any wrongdoing",
+        "created_at": "2023-09-07T12:59:59.836Z",
+        "updated_at": "2023-09-07T04:22:52.440Z",
+        "undefined": "ff0527b5-be30-430a-b4df-cf394d74c741",
+        "allegation_id": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49186997-158e-472d-a971-b666b36669da",
+        "incident_role": "Manager",
+        "incident_consequence": "Suspension",
+        "incident_remarks": "Cooperated fully during investigation",
+        "created_at": "2023-09-06T22:58:05.509Z",
+        "updated_at": "2023-09-07T11:16:11.351Z",
+        "undefined": "3c2f3800-34c4-4e23-a234-c4b818c0f4b2",
+        "allegation_id": "ade56354-1c13-4d53-bfc7-56a13bcb1648",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "investigator": [
+      {
+        "id": "2028523c-1c61-464f-95f8-a5792ae868be",
+        "investigation_status": "Open",
+        "investigation_result": "Substantiated",
+        "investigation_date": "2023-09-07T04:36:39.692Z",
+        "created_at": "2023-09-06T23:07:47.134Z",
+        "updated_at": "2023-09-07T11:24:28.436Z",
+        "undefined": "3c2f3800-34c4-4e23-a234-c4b818c0f4b2",
+        "assigned_allegation_id": "ade56354-1c13-4d53-bfc7-56a13bcb1648",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "763a5b42-822f-4c9e-9bae-05ee02ab5ff8",
+        "investigation_status": "Closed",
+        "investigation_result": "Unsubstantiated",
+        "investigation_date": "2023-09-07T15:10:50.151Z",
+        "created_at": "2023-09-06T21:49:29.706Z",
+        "updated_at": "2023-09-07T13:34:47.034Z",
+        "undefined": "ade56354-1c13-4d53-bfc7-56a13bcb1648",
+        "assigned_allegation_id": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9ee2841-aeea-409f-beb1-19332c0c5460",
+        "investigation_status": "Ongoing",
+        "investigation_result": "Inconclusive",
+        "investigation_date": "2023-09-06T19:49:41.396Z",
+        "created_at": "2023-09-07T04:17:50.956Z",
+        "updated_at": "2023-09-07T10:08:26.995Z",
+        "undefined": "6e4209b9-e850-4531-8aa1-aefd29a6e90d",
+        "assigned_allegation_id": "ff0527b5-be30-430a-b4df-cf394d74c741",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65eef1fd-646b-4a53-bd81-acc150d94c98",
+        "investigation_status": "Pending",
+        "investigation_result": "Partially substantiated",
+        "investigation_date": "2023-09-07T09:14:22.021Z",
+        "created_at": "2023-09-06T23:03:56.239Z",
+        "updated_at": "2023-09-07T03:03:26.238Z",
+        "undefined": "ff0527b5-be30-430a-b4df-cf394d74c741",
+        "assigned_allegation_id": "ba66d62e-d5a2-4f2b-a1c5-fc685a4d50bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e86731a6-3597-4481-b1b5-6bb26c175b45",
+        "investigation_status": "Completed",
+        "investigation_result": "Not applicable",
+        "investigation_date": "2023-09-07T02:48:06.818Z",
+        "created_at": "2023-09-06T16:34:57.205Z",
+        "updated_at": "2023-09-07T11:41:20.263Z",
+        "undefined": "ade56354-1c13-4d53-bfc7-56a13bcb1648",
+        "assigned_allegation_id": "6e4209b9-e850-4531-8aa1-aefd29a6e90d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "003bbd56-6209-4411-bf04-3693d3ebc45e",
+        "email": "Neha_Breitenberg15@gmail.com",
+        "firstName": "Alvah",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/880.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10064531-fd65-4f05-baa3-1e31590c224f",
+        "email": "Dianna83@hotmail.com",
+        "firstName": "Colt",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1187.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5e882ff4-6b9b-49d6-9ee5-f6d05925ddf7",
+        "email": "Demarco72@yahoo.com",
+        "firstName": "Eve",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/774.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "994a1a04-2c89-4ea1-ba18-e0c5c094f4e3",
+        "email": "Theresia_Ondricka@hotmail.com",
+        "firstName": "Maximus",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71279707",
+        "tenantId": null
+      },
+      {
+        "reference": "9707b8bf-0ba6-4e86-95d1-2e07b2ac4779",
+        "email": "Saige.Huel@gmail.com",
+        "firstName": "Mozell",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28299748",
+        "tenantId": null
+      }
+    ]
+  }
+]
